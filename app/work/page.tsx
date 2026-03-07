@@ -10,6 +10,8 @@ export const metadata = {
   description: 'Explore our portfolio of luxury interior design projects across Sri Lanka. Residential and commercial projects showcasing our expertise in gypsum moulding and interior design.',
 }
 
+import { TextAnimate } from '@/components/ui/text-animate'
+
 export default function WorkPage() {
   return (
     <div className="min-h-screen bg-off-white">
@@ -22,7 +24,7 @@ export default function WorkPage() {
             Portfolio
           </p>
           <h1 className="font-cormorant text-5xl md:text-7xl lg:text-8xl font-bold text-royo-burgundy mb-8 leading-[0.9]">
-            Selected Works
+            <TextAnimate text="Selected Works" />
           </h1>
           <p className="text-base md:text-lg text-rock-black opacity-80 max-w-2xl font-raleway leading-relaxed">
             A curated showcase of luxury interior masterpieces, where timeless elegance meets modern sophistication.

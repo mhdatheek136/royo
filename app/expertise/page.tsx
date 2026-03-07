@@ -11,24 +11,18 @@ export const metadata = {
 
 import { Home, Lightbulb, Grid3X3, Brush } from 'lucide-react'
 
+import { BackgroundPaths } from '@/components/ui/background-paths'
+
 export default function ExpertisePage() {
   return (
     <div className="min-h-screen bg-off-white">
       <Header />
 
       {/* Hero Section */}
-      <section className="py-24 md:py-32 bg-royo-burgundy relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="flex flex-col items-center text-center">
-            <h1 className="font-cormorant text-5xl md:text-7xl lg:text-8xl font-bold leading-tight text-off-white mb-8">
-              Our Expertise
-            </h1>
-            <p className="text-lg md:text-xl text-off-white opacity-90 max-w-2xl mx-auto font-raleway leading-relaxed">
-              The intersection of heritage craftsmanship and modern architectural precision. We define spaces that resonate with the soul.
-            </p>
-          </div>
-        </div>
-      </section>
+      <BackgroundPaths
+        title="Our Expertise"
+        subtitle="The intersection of heritage craftsmanship and modern architectural precision. We define spaces that resonate with the soul."
+      />
 
       {/* Gypsum Moulding Section - Prominent */}
       <section className="py-24 md:py-36 bg-off-white relative overflow-hidden">

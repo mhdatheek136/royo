@@ -1,19 +1,16 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Home, Lightbulb, Grid3X3, Brush } from 'lucide-react'
+import { AnimatedWatermark } from '@/components/ui/animated-watermark'
 
 export default function GypsumFeature() {
   return (
     <section className="py-24 md:py-36 bg-off-white bg-gradient-to-t from-royo-burgundy/15 to-off-white relative overflow-hidden">
       {/* Right Watermark */}
-      <div className="absolute top-1/2 -right-40 md:-right-[12rem] lg:-right-[18rem] -translate-y-1/2 w-80 md:w-[24rem] lg:w-[36rem] aspect-square opacity-[0.05] pointer-events-none">
-        <Image
-          src="/icon.svg"
-          alt=""
-          fill
-          className="object-contain object-left"
-        />
-      </div>
+      <AnimatedWatermark
+        size="36rem"
+        className="absolute top-1/2 -right-40 md:-right-[12rem] lg:-right-[18rem] -translate-y-1/2 aspect-square opacity-[0.05]"
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
@@ -49,7 +46,7 @@ export default function GypsumFeature() {
             </p>
             <Link
               href="/expertise"
-              className="inline-block px-10 py-5 bg-royo-burgundy text-white font-raleway font-bold uppercase tracking-widest text-xs hover:bg-rock-black transition-all duration-300 shadow-lg"
+              className="inline-block px-10 py-5 bg-royo-burgundy text-white font-raleway font-bold uppercase tracking-widest text-xs hover:bg-rock-black hover:scale-105 hover:shadow-2xl transition-all duration-300 rounded-xl"
             >
               Explore Service
             </Link>

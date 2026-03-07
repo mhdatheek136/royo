@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { AnimatedWatermark } from '@/components/ui/animated-watermark'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
 import Hero from '@/components/sections/Hero'
@@ -80,14 +81,10 @@ export default function AboutPage() {
       {/* The ROYO Philosophy Section */}
       <section className="py-24 md:py-40 bg-white relative overflow-hidden">
         {/* Large Left Watermark */}
-        <div className="absolute top-0 -left-64 md:-left-40 lg:-left-20 w-[40rem] md:w-[60rem] aspect-square opacity-[0.05] pointer-events-none z-0">
-          <Image
-            src="/icon.svg"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
+        <AnimatedWatermark
+          size="60rem"
+          className="absolute top-0 -left-64 md:-left-40 lg:-left-20 aspect-square opacity-[0.05] z-0"
+        />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <p className="text-star-gold font-raleway font-bold text-xs uppercase tracking-[0.4em] mb-4">
@@ -158,7 +155,7 @@ export default function AboutPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-block px-12 py-5 bg-[#F8D39E] text-royo-burgundy font-raleway font-bold uppercase tracking-widest text-xs hover:bg-white transition-all duration-300 shadow-xl"
+            className="inline-block px-12 py-5 bg-[#F8D39E] text-royo-burgundy font-raleway font-bold uppercase tracking-widest text-xs hover:bg-white hover:scale-105 hover:shadow-2xl transition-all duration-300 rounded-xl"
           >
             Join Our Journey
           </Link>

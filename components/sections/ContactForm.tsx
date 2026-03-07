@@ -52,7 +52,7 @@ export default function ContactForm() {
           Email Address
         </label>
         <input
-          {...register('email', { 
+          {...register('email', {
             required: 'Email is required',
             pattern: { value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, message: 'Invalid email' }
           })}
@@ -142,7 +142,7 @@ export default function ContactForm() {
       <div className="pt-6">
         <button
           type="submit"
-          className="w-full px-8 py-4 bg-royo-burgundy text-off-white font-raleway font-semibold uppercase tracking-wider hover:bg-opacity-90 transition-all duration-300 rounded-none"
+          className="w-full px-8 py-4 bg-royo-burgundy text-off-white font-raleway font-semibold uppercase tracking-wider hover:bg-opacity-90 hover:scale-[1.02] hover:shadow-xl transition-all duration-300 rounded-xl"
         >
           Send Inquiry
         </button>

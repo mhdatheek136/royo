@@ -9,6 +9,10 @@ export const metadata = {
   description: 'Get in touch with ROYO Interior Design. Contact information and inquiry form for your luxury interior design project in Sri Lanka.',
 }
 
+import { TextAnimate } from '@/components/ui/text-animate'
+
+import { AnimatedWatermark } from '@/components/ui/animated-watermark'
+
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-off-white">
@@ -17,20 +21,16 @@ export default function ContactPage() {
       {/* Unified Contact Section */}
       <section className="pt-12 md:pt-20 pb-16 md:pb-24 bg-off-white relative overflow-hidden">
         {/* Right Watermark spanning the page */}
-        <div className="absolute top-0 -right-40 md:-right-[16rem] lg:-right-[20rem] w-[32rem] md:w-[48rem] lg:w-[64rem] aspect-square opacity-[0.05] pointer-events-none z-0">
-          <Image
-            src="/icon.svg"
-            alt=""
-            fill
-            className="object-contain object-left"
-          />
-        </div>
+        <AnimatedWatermark
+          size="64rem"
+          className="absolute top-0 -right-40 md:-right-[16rem] lg:-right-[20rem] aspect-square opacity-[0.05] z-0"
+        />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           {/* Header Part */}
           <div className="text-center mb-16 md:mb-24">
             <h1 className="font-cormorant text-5xl md:text-7xl lg:text-8xl font-bold text-royo-burgundy mb-8 leading-tight">
-              Begin your<br />bespoke journey.
+              <TextAnimate text="Begin your bespoke journey." />
             </h1>
             <p className="text-base md:text-lg text-rock-black opacity-85 max-w-2xl mx-auto font-raleway leading-relaxed tracking-tight">
               Transforming your architectural vision into a curated reality. Share your aspirations with our studio and let us craft a space that resonates with your narrative.

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -9,9 +10,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="font-cormorant text-2xl font-bold text-royo-burgundy mb-2">
-              ROYO
-            </h3>
+            <div className="relative h-8 w-32 mb-4">
+              <Image
+                src="/royo wordmark long.svg"
+                alt="ROYO Logo"
+                fill
+                className="object-contain"
+              />
+            </div>
             <p className="text-sm text-rock-black opacity-70">
               Luxury Interior Design. Sri Lanka.
             </p>

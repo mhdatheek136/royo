@@ -8,6 +8,10 @@ interface HeroProps {
   showGradient?: boolean
 }
 
+import { TextAnimate } from '@/components/ui/text-animate'
+
+import { AnimatedWatermark } from '@/components/ui/animated-watermark'
+
 export default function Hero({
   title,
   subtitle,
@@ -35,35 +39,30 @@ export default function Hero({
       {gradientOverlay}
       {/* Left Watermark */}
       {!isDark && !backgroundImage && (
-        <div className="absolute top-1/2 -left-40 md:-left-[12rem] lg:-left-[18rem] -translate-y-1/2 w-80 md:w-[24rem] lg:w-[36rem] aspect-square opacity-[0.08] pointer-events-none">
-          <Image
-            src="/icon.svg"
-            alt="ROYO Logo Watermark"
-            fill
-            className="object-contain object-right"
-          />
-        </div>
+        <AnimatedWatermark
+          size="36rem"
+          className="absolute top-1/2 -left-40 md:-left-[12rem] lg:-left-[18rem] -translate-y-1/2 aspect-square opacity-[0.08]"
+        />
       )}
 
       {/* Right Watermark */}
       {!isDark && !backgroundImage && (
-        <div className="absolute top-1/2 -right-40 md:-right-[12rem] lg:-right-[18rem] -translate-y-1/2 w-80 md:w-[24rem] lg:w-[36rem] aspect-square opacity-[0.08] pointer-events-none">
-          <Image
-            src="/icon.svg"
-            alt="ROYO Logo Watermark"
-            fill
-            className="object-contain object-left"
-          />
-        </div>
+        <AnimatedWatermark
+          size="36rem"
+          className="absolute top-1/2 -right-40 md:-right-[12rem] lg:-right-[18rem] -translate-y-1/2 aspect-square opacity-[0.08]"
+        />
       )}
 
       {backgroundImage && (
-        <div className={`absolute inset-0 ${isDark ? 'bg-royo-burgundy/80' : 'bg-black/30'}`} />
+        <>
+          <div className={`absolute inset-0 ${isDark ? 'bg-royo-burgundy/60' : 'bg-black/30'}`} />
+          <div className="absolute inset-0 bg-gradient-to-t from-royo-burgundy/40 to-transparent z-0" />
+        </>
       )}
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <h1 className="font-cormorant text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-center text-primary">
-          {title}
+          <TextAnimate text={title} />
         </h1>
 
         {subtitle && (

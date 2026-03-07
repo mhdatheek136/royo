@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import { Menu, X } from 'lucide-react'
@@ -10,6 +11,8 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const pathname = usePathname()
   const isHome = pathname === '/'
+  const isExpertise = pathname === '/expertise'
+  const isTransparentHero = isHome || isExpertise
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,13 +31,13 @@ export default function Header() {
   ]
 
   // Dynamic Styles
-  const headerPosition = isHome ? 'fixed' : 'sticky'
-  const headerBg = isHome
-    ? (isScrolled ? 'bg-[#F8F7F3]/95 backdrop-blur-md shadow-sm border-b border-stunning-silver/30' : 'bg-white/10 backdrop-blur-md border-b border-white/10')
-    : 'bg-[#F8F7F3] border-b border-stunning-silver/30'
+  const headerPosition = isTransparentHero ? 'fixed' : 'sticky'
+  const headerBg = isTransparentHero
+    ? (isScrolled ? 'bg-off-white/95 backdrop-blur-md shadow-sm border-b border-stunning-silver/30' : 'bg-off-white/10 backdrop-blur-md border-b border-off-white/10')
+    : 'bg-off-white border-b border-stunning-silver/30'
 
-  const textColor = isHome && !isScrolled ? 'text-white' : 'text-rock-black'
-  const logoColor = isHome && !isScrolled ? 'text-white' : 'text-royo-burgundy'
+  const textColor = isTransparentHero && !isScrolled ? 'text-off-white' : 'text-rock-black'
+  const logoColor = isTransparentHero && !isScrolled ? 'text-off-white' : 'text-royo-burgundy'
 
   return (
     <header className={`${headerPosition} top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out ${headerBg}`}>
@@ -42,8 +45,15 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 group">
-            <div className={`font-cormorant text-2xl md:text-3xl font-bold tracking-tighter transition-all duration-500 ${logoColor}`}>
-              ROYO
+            <div className="relative h-8 md:h-10 w-32 md:w-40 transition-all duration-500">
+              <Image
+                src="/royo wordmark long.svg"
+                alt="ROYO Logo"
+                fill
+                className={`object-contain transition-all duration-500 ${isTransparentHero && !isScrolled ? 'brightness-0 invert' : ''
+                  }`}
+                priority
+              />
             </div>
           </Link>
 
@@ -78,7 +88,7 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-xs font-raleway font-bold transition-all duration-300 uppercase tracking-widest py-3 border-b border-white/5 hover:opacity-70 ${textColor}`}
+                className={`text-xs font-raleway font-bold transition-all duration-300 uppercase tracking-widest py-3 border-b border-off-white/5 hover:opacity-70 ${textColor}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}

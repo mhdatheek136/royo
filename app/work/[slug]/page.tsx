@@ -16,6 +16,8 @@ export async function generateStaticParams() {
   return []
 }
 
+import { TextAnimate } from '@/components/ui/text-animate'
+
 export default async function ProjectDetailPage({ params }: ProjectDetailPageProps) {
   const { slug } = await params
   const project = getProjectBySlug(slug)
@@ -50,7 +52,7 @@ export default async function ProjectDetailPage({ params }: ProjectDetailPagePro
               {project.category.replace('-', ' ')}
             </p>
             <h1 className="font-cormorant text-4xl md:text-6xl font-bold text-off-white mb-4">
-              {project.title}
+              <TextAnimate text={project.title} />
             </h1>
             <p className="text-off-white/90 text-lg">
               {project.location} • {project.year}

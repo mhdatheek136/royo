@@ -39,15 +39,14 @@ export default function CTASection({
             <Link
               key={index}
               href={button.href}
-              className={`px-8 py-4 font-raleway font-semibold uppercase tracking-wider transition-all duration-300 rounded-none text-center ${
-                button.variant === 'secondary'
+              className={`px-8 py-4 font-raleway font-semibold uppercase tracking-wider transition-all duration-300 rounded-xl text-center hover:scale-105 hover:shadow-xl ${button.variant === 'secondary'
                   ? isDark
                     ? 'border-2 border-off-white text-off-white hover:bg-off-white hover:text-royo-burgundy'
                     : 'border-2 border-royo-burgundy text-royo-burgundy hover:bg-royo-burgundy hover:text-off-white'
                   : isDark
-                  ? 'bg-star-gold text-royo-burgundy hover:bg-opacity-90'
-                  : 'bg-royo-burgundy text-off-white hover:bg-opacity-90'
-              }`}
+                    ? 'bg-star-gold text-royo-burgundy hover:bg-opacity-90'
+                    : 'bg-royo-burgundy text-off-white hover:bg-opacity-90'
+                }`}
             >
               {button.label}
             </Link>
