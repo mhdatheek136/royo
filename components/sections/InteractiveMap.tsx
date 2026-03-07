@@ -7,7 +7,11 @@ import { getProjectsByProvince } from '@/data/projects'
 import { X, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 
-export default function InteractiveMap() {
+interface InteractiveMapProps {
+  showProjects?: boolean
+}
+
+export default function InteractiveMap({ showProjects = false }: InteractiveMapProps) {
   const [selectedProvince, setSelectedProvince] = useState<Province | null>(null)
   const [popupPos, setPopupPos] = useState({ x: 0, y: 0 })
   const mapRef = useRef<HTMLDivElement>(null)

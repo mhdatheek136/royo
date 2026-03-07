@@ -14,31 +14,37 @@ export default function ContactPage() {
     <div className="min-h-screen bg-off-white">
       <Header />
 
-      {/* Hero Section */}
-      <section className="py-20 md:py-32 bg-off-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="font-cormorant text-5xl md:text-6xl font-bold text-center text-rock-black mb-8">
-            Begin your bespoke journey.
-          </h1>
-          <p className="text-xl text-center text-rock-black opacity-85 max-w-2xl mx-auto">
-            Transforming your architectural vision into a curated reality. Share your aspirations with our studio and let us craft a space that resonates with your narrative.
-          </p>
+      {/* Unified Contact Section */}
+      <section className="pt-12 md:pt-20 pb-16 md:pb-24 bg-off-white relative overflow-hidden">
+        {/* Right Watermark spanning the page */}
+        <div className="absolute top-0 -right-40 md:-right-[16rem] lg:-right-[20rem] w-[32rem] md:w-[48rem] lg:w-[64rem] aspect-square opacity-[0.05] pointer-events-none z-0">
+          <Image
+            src="/icon.svg"
+            alt=""
+            fill
+            className="object-contain object-left"
+          />
         </div>
-      </section>
 
-      {/* Main Contact Section */}
-      <section className="py-20 md:py-32 bg-off-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          {/* Header Part */}
+          <div className="text-center mb-16 md:mb-24">
+            <h1 className="font-cormorant text-5xl md:text-7xl lg:text-8xl font-bold text-royo-burgundy mb-8 leading-tight">
+              Begin your<br />bespoke journey.
+            </h1>
+            <p className="text-base md:text-lg text-rock-black opacity-85 max-w-2xl mx-auto font-raleway leading-relaxed tracking-tight">
+              Transforming your architectural vision into a curated reality. Share your aspirations with our studio and let us craft a space that resonates with your narrative.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-24">
             {/* Form Column */}
             <div className="lg:col-span-2">
-              <div className="bg-white p-8 md:p-12 rounded-lg shadow-sm">
-                <h2 className="font-cormorant text-3xl font-bold text-rock-black mb-2">
+              <div className="bg-transparent">
+                <h2 className="font-raleway text-xl md:text-2xl font-bold text-royo-burgundy mb-4 uppercase tracking-[0.2em]">
                   Project Inquiry
                 </h2>
-                <p className="text-shine-brown text-sm uppercase tracking-widest mb-8">
-                  Tell us about your vision
-                </p>
+                <div className="w-full h-px bg-gray-200 mb-10" />
                 <ContactForm />
               </div>
             </div>
@@ -46,69 +52,68 @@ export default function ContactPage() {
             {/* Studio Info Column */}
             <div className="lg:col-span-1">
               <div>
-                <h2 className="font-cormorant text-3xl font-bold text-rock-black mb-8">
+                <h2 className="font-raleway text-xl md:text-2xl font-bold text-royo-burgundy mb-4 uppercase tracking-[0.2em]">
                   The Studio
                 </h2>
+                <div className="w-full h-px bg-gray-200 mb-10" />
 
                 {/* Studio Image */}
-                <div className="relative h-64 md:h-72 overflow-hidden rounded-lg mb-8 shadow-sm">
+                <div className="relative aspect-square overflow-hidden rounded-2xl mb-12 shadow-xl border border-gray-100">
                   <Image
-                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=400&fit=crop"
+                    src="https://images.unsplash.com/photo-1620619767323-b95a89183081?w=1200&h=1200&fit=crop"
                     alt="ROYO Studio"
                     fill
-                    className="object-cover"
+                    className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
                   />
                 </div>
 
                 {/* Contact Information */}
-                <div className="space-y-8">
+                <div className="space-y-12">
                   {/* Address */}
-                  <div className="flex gap-4">
-                    <MapPin className="w-5 h-5 flex-shrink-0 text-royo-burgundy mt-1" />
+                  <div className="flex gap-6 items-start">
+                    <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center shadow-md text-royo-burgundy flex-shrink-0">
+                      <MapPin className="w-5 h-5" />
+                    </div>
                     <div>
-                      <h3 className="font-raleway font-semibold text-rock-black uppercase text-sm tracking-wider mb-2">
+                      <h3 className="font-raleway font-bold text-rock-black uppercase text-[10px] tracking-[0.3em] mb-2 opacity-60">
                         Address
                       </h3>
-                      <p className="text-rock-black opacity-75">
+                      <p className="text-rock-black opacity-80 font-raleway text-sm md:text-base leading-snug">
                         42 Ward Place, Cinnamon Gardens,<br />
-                        Kurunegala, Sri Lanka
+                        Colombo, Sri Lanka
                       </p>
                     </div>
                   </div>
 
                   {/* Email */}
-                  <div className="flex gap-4">
-                    <Mail className="w-5 h-5 flex-shrink-0 text-royo-burgundy mt-1" />
+                  <div className="flex gap-6 items-start">
+                    <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center shadow-md text-royo-burgundy flex-shrink-0">
+                      <Mail className="w-5 h-5" />
+                    </div>
                     <div>
-                      <h3 className="font-raleway font-semibold text-rock-black uppercase text-sm tracking-wider mb-2">
+                      <h3 className="font-raleway font-bold text-rock-black uppercase text-[10px] tracking-[0.3em] mb-2 opacity-60">
                         Email
                       </h3>
-                      <p className="text-rock-black opacity-75">
-                        <a href="mailto:curate@royointeriors.com" className="hover:text-royo-burgundy transition-colors">
+                      <p className="text-rock-black opacity-80 font-raleway text-sm md:text-base leading-snug">
+                        <a href="mailto:curate@royointeriors.com" className="hover:text-royo-burgundy transition-colors block">
                           curate@royointeriors.com
-                        </a>
-                        <br />
-                        <a href="mailto:press@royointeriors.com" className="hover:text-royo-burgundy transition-colors">
-                          press@royointeriors.com
                         </a>
                       </p>
                     </div>
                   </div>
 
                   {/* Phone */}
-                  <div className="flex gap-4">
-                    <Phone className="w-5 h-5 flex-shrink-0 text-royo-burgundy mt-1" />
+                  <div className="flex gap-6 items-start">
+                    <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center shadow-md text-royo-burgundy flex-shrink-0">
+                      <Phone className="w-5 h-5" />
+                    </div>
                     <div>
-                      <h3 className="font-raleway font-semibold text-rock-black uppercase text-sm tracking-wider mb-2">
+                      <h3 className="font-raleway font-bold text-rock-black uppercase text-[10px] tracking-[0.3em] mb-2 opacity-60">
                         Inquiries
                       </h3>
-                      <p className="text-rock-black opacity-75">
-                        <a href="tel:+94112345678" className="hover:text-royo-burgundy transition-colors">
+                      <p className="text-rock-black opacity-80 font-raleway text-sm md:text-base leading-snug">
+                        <a href="tel:+94112345678" className="hover:text-royo-burgundy transition-colors block">
                           +94 11 2345 678
-                        </a>
-                        <br />
-                        <a href="tel:+94771234567" className="hover:text-royo-burgundy transition-colors">
-                          +94 77 1234 567
                         </a>
                       </p>
                     </div>
@@ -132,32 +137,20 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Decorative Section */}
-      <section className="py-20 md:py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative h-80 md:h-96 overflow-hidden rounded-lg">
-            <Image
-              src="https://images.unsplash.com/photo-1618219944342-824e40a13202?w=1200&h=400&fit=crop"
-              alt="Design inspiration"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Map Section - Placeholder */}
+      {/* Map Section */}
       <section className="py-20 md:py-32 bg-off-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-cormorant text-4xl font-bold text-rock-black mb-12 text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <h2 className="font-raleway text-2xl md:text-3xl font-bold text-royo-burgundy mb-12 text-center uppercase tracking-[0.2em]">
             Visit Us
           </h2>
-          <div className="relative h-80 md:h-96 bg-white rounded-lg overflow-hidden shadow-sm">
-            <div className="w-full h-full flex items-center justify-center bg-gray-100">
-              <div className="text-center">
-                <div className="text-5xl mb-4">📍</div>
-                <p className="font-raleway text-rock-black font-semibold">
-                  42 Ward Place, Cinnamon Gardens, Sri Lanka
+          <div className="relative h-[400px] md:h-[500px] bg-white/40 backdrop-blur-sm rounded-3xl overflow-hidden shadow-2xl border border-white">
+            <div className="w-full h-full flex items-center justify-center bg-gray-50/50">
+              <div className="text-center group">
+                <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center shadow-xl text-royo-burgundy mb-6 mx-auto group-hover:scale-110 transition-transform duration-500">
+                  <MapPin className="w-8 h-8" />
+                </div>
+                <p className="font-raleway text-rock-black font-bold tracking-tight text-lg">
+                  42 Ward Place, Cinnamon Gardens, Colombo, Sri Lanka
                 </p>
               </div>
             </div>

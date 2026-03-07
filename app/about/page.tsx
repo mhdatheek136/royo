@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
 import Hero from '@/components/sections/Hero'
@@ -9,6 +10,8 @@ export const metadata = {
   description: 'Learn about ROYO Interior Design, our philosophy, values, and the leadership behind Sri Lanka\'s premier luxury interior design studio.',
 }
 
+import { DraftingCompass, PenTool, Diamond } from 'lucide-react'
+
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-off-white">
@@ -18,121 +21,126 @@ export default function AboutPage() {
       <Hero
         title="Crafting the Soul of Space"
         subtitle="High-End Luxury Interior Design - Sri Lanka"
+        showGradient={true}
       />
 
       {/* The Visionaries Section */}
       <section className="py-20 md:py-32 bg-off-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-cormorant text-4xl md:text-5xl font-bold text-rock-black mb-16">
+          <h2 className="font-cormorant text-4xl md:text-5xl font-bold text-royo-burgundy mb-16 underline decoration-1 underline-offset-8">
             The Visionaries
           </h2>
 
-          {/* Founder Profile 1 */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start mb-20">
-            <div className="md:col-span-1">
-              <div className="relative h-80 md:h-96 overflow-hidden rounded-lg bg-rock-black">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+            {/* Founder 1 */}
+            <div className="group">
+              <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] shadow-2xl mb-8">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop"
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop"
                   alt="Founder"
                   fill
-                  className="object-cover"
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 flex items-end">
-                  <div className="w-full bg-gradient-to-t from-rock-black to-transparent p-6">
-                    <h3 className="font-cormorant text-2xl font-bold text-off-white">
-                      Malith Perera
-                    </h3>
-                    <p className="text-star-gold text-sm uppercase tracking-widest font-raleway mt-2">
-                      Design Director
-                    </p>
-                  </div>
-                </div>
               </div>
-            </div>
-            <div className="md:col-span-2">
-              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-4">
-                Malith Perera - Founder & Design Director
+              <h3 className="font-cormorant text-3xl font-bold text-rock-black mb-2">
+                Malith Perera
               </h3>
-              <p className="text-lg text-rock-black opacity-85 leading-relaxed mb-4">
-                Malith's expertise lies in the intricate intensity of materiality and light. A graduate of the Royal Academy of Arts, he specializes in creating bespoke furniture pieces that serve as the focal point for ROYO's most prestigious projects.
+              <p className="text-star-gold font-raleway text-sm uppercase tracking-widest mb-6">
+                Founder & Design Director
               </p>
-              <p className="text-lg text-rock-black opacity-85 leading-relaxed">
-                His passion for sustainable luxury ensures that every material sourced—from reclaimed timber to hand-woven textiles—tells a story of ethical beauty. Each piece of furniture he creates is a bespoke exploration of form, function, and artistic vision.
+              <p className="text-rock-black opacity-80 leading-relaxed font-raleway">
+                A visionary in architectural volume and material tension. Malith specializes in merging heritage craftsmanship with global modernism, ensuring every ROYO project is a masterpiece of precision and soul.
               </p>
-              <a href="#" className="inline-block mt-6 text-royo-burgundy font-raleway font-semibold uppercase tracking-wider hover:opacity-70 transition-opacity">
-                Read Full Bio
-              </a>
             </div>
-          </div>
 
-          {/* Founder Profile 2 */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start md:grid-cols-3 md:direction-rtl">
-            <div className="md:col-span-2">
-              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-4">
-                Malith Perera - Design Consultant
-              </h3>
-              <div className="relative h-80 md:h-96 overflow-hidden rounded-lg bg-gray-200 mb-6 md:mb-0 md:order-first">
+            {/* Founder 2 */}
+            <div className="group">
+              <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] shadow-2xl mb-8">
                 <Image
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop"
-                  alt="Design Consultant"
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&h=1000&fit=crop"
+                  alt="Co-Founder"
                   fill
-                  className="object-cover"
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />
               </div>
-              <p className="text-lg text-rock-black opacity-85 leading-relaxed mb-4">
-                Malith's expertise lies in the intricate intensity of materiality and light. A graduate of the Royal Academy of Arts, he specializes in creating bespoke furniture pieces that serve as the focal point for ROYO's most prestigious projects.
+              <h3 className="font-cormorant text-3xl font-bold text-rock-black mb-2">
+                Sarah Alwis
+              </h3>
+              <p className="text-star-gold font-raleway text-sm uppercase tracking-widest mb-6">
+                Creative Consultant
               </p>
-              <a href="#" className="inline-block text-royo-burgundy font-raleway font-semibold uppercase tracking-wider hover:opacity-70 transition-opacity">
-                Read Full Bio
-              </a>
+              <p className="text-rock-black opacity-80 leading-relaxed font-raleway">
+                With a background in fine arts and lighting design, Sarah brings an ethereal quality to the ROYO aesthetic. Her focus on sensory experiences ensures that our spaces aren't just seen, but felt.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* The ROYO Philosophy Section */}
-      <section className="py-20 md:py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-cormorant text-4xl md:text-5xl font-bold text-rock-black mb-16">
+      <section className="py-24 md:py-40 bg-white relative overflow-hidden">
+        {/* Large Left Watermark */}
+        <div className="absolute top-0 -left-64 md:-left-40 lg:-left-20 w-[40rem] md:w-[60rem] aspect-square opacity-[0.05] pointer-events-none z-0">
+          <Image
+            src="/icon.svg"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          <p className="text-star-gold font-raleway font-bold text-xs uppercase tracking-[0.4em] mb-4">
+            Our Heritage
+          </p>
+          <h2 className="font-cormorant text-5xl md:text-6xl font-bold text-royo-burgundy mb-12">
             The ROYO Philosophy
           </h2>
 
-          <div className="prose prose-lg max-w-4xl">
-            <p className="text-xl text-rock-black opacity-90 leading-relaxed mb-6">
-              ROYO Interior Designs is committed to blending Sri Lankan heritage with modern architectural precision. Our narrative is one of elegance, mineral aesthetics, and a deep understanding of the soul within every space.
+          <div className="max-w-4xl mx-auto space-y-8 mb-24">
+            <p className="text-base md:text-lg text-rock-black opacity-80 leading-relaxed font-raleway">
+              ROYO Interior Designs is committed to blending Sri Lankan heritage with modern architectural precision. Our narrative is one of elegance, minimal aesthetics, and a deep understanding of the soul within every space.
             </p>
-            <p className="text-xl text-rock-black opacity-90 leading-relaxed">
-              We believe that luxury is not just an aesthetic—it's a feeling—a harmony between the built environment and the natural spirit of its location. By integrating local craftsmanship with global design standards, we create sanctuaries that transcend time.
+            <p className="text-base md:text-lg text-rock-black opacity-80 leading-relaxed font-raleway">
+              We believe that luxury is not just an aesthetic, but a feeling—a harmony between the built environment and the natural spirit of its location. By integrating local craftsmanship with global design standards, we create sanctuaries that transcend time.
             </p>
           </div>
 
           {/* Heritage Values Section */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mt-20">
-            <div className="text-center">
-              <div className="text-4xl mb-4">🏛️</div>
-              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-3">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 rounded-full bg-off-white flex items-center justify-center mb-8 shadow-sm">
+                <DraftingCompass className="w-6 h-6 text-royo-burgundy" />
+              </div>
+              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-4">
                 Architectural Rigor
               </h3>
-              <p className="text-rock-black opacity-75">
-                Precision in every dimension of structural integrity and spatial logic.
+              <p className="text-sm text-rock-black opacity-70 max-w-[240px] leading-relaxed">
+                Precision in every dimension. We approach design through a lens of structural integrity and spatial logic.
               </p>
             </div>
-            <div className="text-center">
-              <div className="text-4xl mb-4">✨</div>
-              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-3">
+
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 rounded-full bg-off-white flex items-center justify-center mb-8 shadow-sm">
+                <PenTool className="w-6 h-6 text-royo-burgundy" />
+              </div>
+              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-4">
                 Artisanal Integrity
               </h3>
-              <p className="text-rock-black opacity-75">
+              <p className="text-sm text-rock-black opacity-70 max-w-[240px] leading-relaxed">
                 Honouring the hands that build. We collaborate with master craftsmen to preserve traditional Sri Lankan techniques.
               </p>
             </div>
-            <div className="text-center">
-              <div className="text-4xl mb-4">⏳</div>
-              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-3">
+
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 rounded-full bg-off-white flex items-center justify-center mb-8 shadow-sm">
+                <Diamond className="w-6 h-6 text-royo-burgundy" />
+              </div>
+              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-4">
                 Timeless Sophistication
               </h3>
-              <p className="text-rock-black opacity-75">
-                Elegance that never fades. Our designs are curated to transcend generations.
+              <p className="text-sm text-rock-black opacity-70 max-w-[240px] leading-relaxed">
+                Elegance that never fades. Our designs are curated to evolve gracefully across generations.
               </p>
             </div>
           </div>
@@ -140,33 +148,22 @@ export default function AboutPage() {
       </section>
 
       {/* Vision Statement */}
-      <section className="py-20 md:py-32 bg-royo-burgundy text-off-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-cormorant text-4xl md:text-5xl font-bold mb-8">
-            Defining the Future of Sri Lankan Luxury
+      <section className="py-24 md:py-40 bg-royo-burgundy text-white relative overflow-hidden">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <h2 className="font-cormorant text-5xl md:text-7xl font-bold mb-12 leading-tight">
+            Defining the Future of <br /> Sri Lankan Luxury
           </h2>
-          <p className="text-xl opacity-90 leading-relaxed mb-12">
-            Our vision extends beyond the walls we build. We are cultivating a legacy of design excellence that empowers local communities and positions Sri Lanka as a global beacon for sophisticated, culturally-rooted interior architecture.
+          <p className="text-lg md:text-xl opacity-80 leading-relaxed mb-16 max-w-3xl mx-auto font-raleway">
+            Our vision extends beyond the walls we build. We are cultivating a legacy of design excellence that empowers local communities and positions Sri Lanka as a global beacon for sophisticated, soul-driven architecture.
           </p>
-          <a
+          <Link
             href="/contact"
-            className="inline-block px-8 py-4 bg-star-gold text-royo-burgundy font-raleway font-semibold uppercase tracking-wider hover:bg-opacity-90 transition-all duration-300"
+            className="inline-block px-12 py-5 bg-[#F8D39E] text-royo-burgundy font-raleway font-bold uppercase tracking-widest text-xs hover:bg-white transition-all duration-300 shadow-xl"
           >
             Join Our Journey
-          </a>
+          </Link>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <CTASection
-        title="Ready to work with us?"
-        subtitle="Experience the ROYO difference in your next project"
-        buttons={[
-          { label: 'Start a Project', href: '/contact', variant: 'primary' },
-          { label: 'View Our Work', href: '/work', variant: 'secondary' },
-        ]}
-        isDark={true}
-      />
 
       <Footer />
     </div>

@@ -36,12 +36,12 @@ export default function ProjectCard({ project, variant = 'grid' }: ProjectCardPr
   return (
     <Link href={`/work/${project.slug}`}>
       <div className="group cursor-pointer">
-        <div className="relative h-64 md:h-80 overflow-hidden rounded-lg">
+        <div className="relative aspect-[4/3] overflow-hidden rounded-[2.5rem] shadow-sm border border-gray-100">
           <Image
             src={project.images[0]}
             alt={project.title}
             fill
-            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            className="object-cover group-hover:scale-105 grayscale group-hover:grayscale-0 transition-all duration-1000"
           />
         </div>
         <div className="mt-4">

@@ -1,6 +1,6 @@
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
-import Hero from '@/components/sections/Hero'
+import WarpShaderHero from '@/components/ui/wrap-shader'
 import FeaturedProjects from '@/components/sections/FeaturedProjects'
 import GypsumFeature from '@/components/sections/GypsumFeature'
 import InteractiveMap from '@/components/sections/InteractiveMap'
@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <Hero
+      <WarpShaderHero
         title="Interior Design - Done Right"
         subtitle="Bespoke interior experiences crafted for the discerning lifestyle in the heart of Sri Lanka"
       />

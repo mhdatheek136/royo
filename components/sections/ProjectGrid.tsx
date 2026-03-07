@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { projects, Category, Province } from '@/data/projects'
+import { MapPin, ChevronDown } from 'lucide-react'
 import ProjectCard from './ProjectCard'
 
 export default function ProjectGrid() {
@@ -36,53 +37,51 @@ export default function ProjectGrid() {
   })
 
   return (
-    <div className="py-20 md:py-32 bg-off-white">
+    <div className="pb-24 md:pb-36 bg-off-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Filters Section */}
         <div className="mb-16">
-          {/* Category Filters */}
-          <div className="mb-8">
-            <h3 className="sr-only">Filter by category</h3>
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 pb-8 border-b border-gray-200">
+            {/* Category Filters */}
             <div className="flex flex-wrap gap-3">
               {categories.map((cat) => (
                 <button
                   key={cat.id}
                   onClick={() => setSelectedCategory(cat.id)}
-                  className={`px-6 py-2 font-raleway font-medium text-sm uppercase tracking-wider rounded-full transition-all duration-300 ${
-                    selectedCategory === cat.id
-                      ? 'bg-royo-burgundy text-off-white'
-                      : 'bg-white text-rock-black border-2 border-border hover:border-royo-burgundy'
-                  }`}
+                  className={`px-6 py-2.5 font-raleway font-semibold text-xs md:text-sm tracking-tight rounded-full transition-all duration-300 ${selectedCategory === cat.id
+                      ? 'bg-royo-burgundy text-white shadow-lg'
+                      : 'bg-gray-100 text-rock-black hover:bg-gray-200'
+                    }`}
                 >
                   {cat.label}
                 </button>
               ))}
             </div>
+
+            {/* Province Filter */}
+            <div className="relative flex items-center gap-3">
+              <MapPin className="w-5 h-5 text-rock-black opacity-60" />
+              <div className="relative group">
+                <select
+                  value={selectedProvince}
+                  onChange={(e) => setSelectedProvince(e.target.value as Province | 'all')}
+                  className="appearance-none font-raleway font-semibold text-xs md:text-sm text-rock-black pr-8 py-2 bg-transparent focus:outline-none cursor-pointer"
+                >
+                  {provinces.map((prov) => (
+                    <option key={prov.id} value={prov.id} className="bg-white">
+                      {prov.label}
+                    </option>
+                  ))}
+                </select>
+                <ChevronDown className="absolute right-0 top-1/2 -translate-y-1/2 w-4 h-4 text-rock-black opacity-60 pointer-events-none" />
+              </div>
+            </div>
           </div>
 
-          {/* Province Filter */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-            <h3 className="sr-only">Filter by location</h3>
-            <div className="flex items-center gap-3">
-              <span className="text-sm font-raleway uppercase tracking-wider text-rock-black">
-                Location:
-              </span>
-              <select
-                value={selectedProvince}
-                onChange={(e) => setSelectedProvince(e.target.value as Province | 'all')}
-                className="px-4 py-2 font-raleway text-sm border-2 border-border rounded-none focus:border-royo-burgundy focus:outline-none bg-white text-rock-black"
-              >
-                {provinces.map((prov) => (
-                  <option key={prov.id} value={prov.id}>
-                    {prov.label}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            {/* Results count */}
-            <p className="text-sm text-shine-brown font-raleway">
-              {filteredProjects.length} project{filteredProjects.length !== 1 ? 's' : ''} found
+          {/* Results count (Subtle) */}
+          <div className="mt-6 flex justify-end">
+            <p className="text-[10px] md:text-xs text-shine-brown font-raleway uppercase tracking-widest opacity-60 italic">
+              {filteredProjects.length} project{filteredProjects.length !== 1 ? 's' : ''} exhibited
             </p>
           </div>
         </div>
