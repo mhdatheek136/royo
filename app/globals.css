@@ -1,0 +1,101 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* ROYO Brand Colors */
+  --royo-burgundy: #50171D;
+  --star-gold: #FACE82;
+  --sun-cream: #FFFBED;
+  --quiet-white: #F8F7F3;
+  --shine-brown: #79614F;
+  --stunning-silver: #CEC6BD;
+  --rock-black: #202423;
+
+  /* Design Tokens */
+  --background: var(--quiet-white);
+  --foreground: var(--rock-black);
+  --card: white;
+  --card-foreground: var(--rock-black);
+  --popover: white;
+  --popover-foreground: var(--rock-black);
+  --primary: var(--royo-burgundy);
+  --primary-foreground: white;
+  --secondary: var(--star-gold);
+  --secondary-foreground: var(--royo-burgundy);
+  --muted: var(--stunning-silver);
+  --muted-foreground: var(--shine-brown);
+  --accent: var(--star-gold);
+  --accent-foreground: var(--royo-burgundy);
+  --destructive: #ef4444;
+  --destructive-foreground: white;
+  --border: var(--stunning-silver);
+  --input: var(--quiet-white);
+  --ring: var(--royo-burgundy);
+  --radius: 0.5rem;
+}
+
+
+
+@theme inline {
+  --font-raleway: 'Raleway', ui-sans-serif, system-ui, sans-serif;
+  --font-cormorant: 'Cormorant Garamond', serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  
+  --color-off-white: var(--quiet-white);
+  --color-rock-black: var(--rock-black);
+  --color-royo-burgundy: var(--royo-burgundy);
+  --color-star-gold: var(--star-gold);
+  --color-sun-cream: var(--sun-cream);
+  --color-shine-brown: var(--shine-brown);
+  --color-stunning-silver: var(--stunning-silver);
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-off-white text-rock-black font-raleway;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-cormorant font-bold tracking-tight;
+  }
+  h1 {
+    @apply text-5xl md:text-6xl leading-tight;
+  }
+  h2 {
+    @apply text-4xl md:text-5xl leading-tight;
+  }
+  h3 {
+    @apply text-3xl md:text-4xl leading-tight;
+  }
+  p {
+    @apply leading-relaxed;
+  }
+}
