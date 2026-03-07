@@ -83,7 +83,7 @@ export default function AboutPage() {
         {/* Large Left Watermark */}
         <AnimatedWatermark
           size="60rem"
-          className="absolute top-0 -left-64 md:-left-40 lg:-left-20 aspect-square opacity-[0.05] z-0"
+          className="absolute top-0 -left-64 md:-left-40 lg:-left-20 aspect-square opacity-[0.05] z-0 hidden md:block"
         />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">

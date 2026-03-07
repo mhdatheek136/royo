@@ -41,7 +41,7 @@ export default function ProjectCard({ project, variant = 'grid' }: ProjectCardPr
             src={project.images[0]}
             alt={project.title}
             fill
-            className="object-cover group-hover:scale-105 grayscale group-hover:grayscale-0 transition-all duration-1000"
+            className="object-cover group-hover:scale-105 transition-all duration-500"
           />
         </div>
         <div className="mt-4">

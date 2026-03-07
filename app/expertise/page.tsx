@@ -9,7 +9,7 @@ export const metadata = {
   description: 'Discover our core expertise in luxury interior design, gypsum moulding, space planning, lighting design, and material curation.',
 }
 
-import { Home, Lightbulb, Grid3X3, Brush } from 'lucide-react'
+import { Home, Lightbulb, Grid3X3, Brush, History, UserCheck, Globe, Infinity } from 'lucide-react'
 
 import { BackgroundPaths } from '@/components/ui/background-paths'
 
@@ -181,46 +181,71 @@ export default function ExpertisePage() {
       </section>
 
       {/* Why Choose ROYO Section */}
-      <section className="py-20 md:py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-cormorant text-4xl md:text-5xl font-bold text-rock-black text-center mb-16">
-            Why Choose ROYO
-          </h2>
+      <section className="py-24 md:py-40 bg-white relative overflow-hidden">
+        {/* Subtle Background Watermark */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-royo-burgundy/5 rounded-full blur-[120px] pointer-events-none" />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-            <div className="border-l-4 border-royo-burgundy pl-6 md:pl-8">
-              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-3">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center max-w-3xl mx-auto mb-20 md:mb-28">
+            <p className="text-sm font-raleway font-bold uppercase tracking-[0.4em] text-shine-brown mb-6">
+              The ROYO Difference
+            </p>
+            <h2 className="font-cormorant text-4xl md:text-5xl lg:text-6xl font-bold text-royo-burgundy mb-8">
+              Why Choose ROYO
+            </h2>
+            <div className="w-24 h-px bg-royo-burgundy/30 mx-auto" />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            {/* Value 1 */}
+            <div className="group p-10 md:p-12 bg-off-white rounded-[2rem] border border-gray-100 transition-all duration-500 hover:shadow-2xl hover:shadow-royo-burgundy/10 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-10 group-hover:bg-royo-burgundy transition-colors duration-500">
+                <History className="w-8 h-8 text-royo-burgundy group-hover:text-white transition-colors duration-500" strokeWidth={1} />
+              </div>
+              <h3 className="font-cormorant text-2xl lg:text-3xl font-bold text-rock-black mb-6">
                 Heritage & Innovation
               </h3>
-              <p className="text-rock-black opacity-75 leading-relaxed">
+              <p className="text-gray-600 font-raleway leading-relaxed">
                 We blend Sri Lankan craftsmanship traditions with contemporary design methodologies, creating spaces that honor the past while embracing the future.
               </p>
             </div>
 
-            <div className="border-l-4 border-royo-burgundy pl-6 md:pl-8">
-              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-3">
+            {/* Value 2 */}
+            <div className="group p-10 md:p-12 bg-white rounded-[2rem] border border-gray-100 transition-all duration-500 hover:shadow-2xl hover:shadow-royo-burgundy/10 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-off-white rounded-2xl flex items-center justify-center shadow-sm mb-10 group-hover:bg-royo-burgundy transition-colors duration-500">
+                <UserCheck className="w-8 h-8 text-royo-burgundy group-hover:text-white transition-colors duration-500" strokeWidth={1} />
+              </div>
+              <h3 className="font-cormorant text-2xl lg:text-3xl font-bold text-rock-black mb-6">
                 Personalized Attention
               </h3>
-              <p className="text-rock-black opacity-75 leading-relaxed">
-                Every project receives dedicated attention from our principals, ensuring your vision becomes reality with unwavering focus.
+              <p className="text-gray-600 font-raleway leading-relaxed">
+                Every project receives dedicated attention from our principals, ensuring your vision becomes reality with unwavering focus and meticulous care.
               </p>
             </div>
 
-            <div className="border-l-4 border-royo-burgundy pl-6 md:pl-8">
-              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-3">
+            {/* Value 3 */}
+            <div className="group p-10 md:p-12 bg-white rounded-[2rem] border border-gray-100 transition-all duration-500 hover:shadow-2xl hover:shadow-royo-burgundy/10 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-off-white rounded-2xl flex items-center justify-center shadow-sm mb-10 group-hover:bg-royo-burgundy transition-colors duration-500">
+                <Globe className="w-8 h-8 text-royo-burgundy group-hover:text-white transition-colors duration-500" strokeWidth={1} />
+              </div>
+              <h3 className="font-cormorant text-2xl lg:text-3xl font-bold text-rock-black mb-6">
                 Global Network
               </h3>
-              <p className="text-rock-black opacity-75 leading-relaxed">
-                Access to the world's finest materials, artisans, and manufacturers, ensuring uncompromising quality in every detail.
+              <p className="text-gray-600 font-raleway leading-relaxed">
+                Access to the world&apos;s finest materials, artisans, and manufacturers, ensuring uncompromising quality in every detail and texture.
               </p>
             </div>
 
-            <div className="border-l-4 border-royo-burgundy pl-6 md:pl-8">
-              <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-3">
+            {/* Value 4 */}
+            <div className="group p-10 md:p-12 bg-off-white rounded-[2rem] border border-gray-100 transition-all duration-500 hover:shadow-2xl hover:shadow-royo-burgundy/10 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-10 group-hover:bg-royo-burgundy transition-colors duration-500">
+                <Infinity className="w-8 h-8 text-royo-burgundy group-hover:text-white transition-colors duration-500" strokeWidth={1} />
+              </div>
+              <h3 className="font-cormorant text-2xl lg:text-3xl font-bold text-rock-black mb-6">
                 Timeless Design
               </h3>
-              <p className="text-rock-black opacity-75 leading-relaxed">
-                Our designs transcend trends, creating spaces that age gracefully and remain sophisticated across generations.
+              <p className="text-gray-600 font-raleway leading-relaxed">
+                Our designs transcend fleeting trends, creating bespoke spaces that age gracefully and remain sophisticated and relevant across generations.
               </p>
             </div>
           </div>

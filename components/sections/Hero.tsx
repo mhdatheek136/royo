@@ -41,7 +41,7 @@ export default function Hero({
       {!isDark && !backgroundImage && (
         <AnimatedWatermark
           size="36rem"
-          className="absolute top-1/2 -left-40 md:-left-[12rem] lg:-left-[18rem] -translate-y-1/2 aspect-square opacity-[0.08]"
+          className="absolute top-1/2 -left-40 md:-left-[12rem] lg:-left-[18rem] -translate-y-1/2 aspect-square opacity-[0.08] hidden md:block"
         />
       )}
 

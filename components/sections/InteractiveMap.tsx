@@ -6,6 +6,7 @@ import { provincePaths } from '@/data/provincePaths'
 import { getProjectsByProvince } from '@/data/projects'
 import { X, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import { Counter } from '@/components/ui/counter'
 
 interface InteractiveMapProps {
   showProjects?: boolean
@@ -64,7 +65,7 @@ export default function InteractiveMap({ showProjects = false }: InteractiveMapP
           <div className="lg:col-span-1 relative flex justify-center order-2 lg:order-1 min-h-[500px] lg:min-h-0">
             <svg
               viewBox="0 0 694 874"
-              className="w-full max-w-[280px] sm:max-w-sm lg:max-w-md h-auto"
+              className="w-full max-w-[340px] sm:max-w-sm lg:max-w-md h-auto"
               aria-label="Interactive map of Sri Lanka provinces"
             >
               <defs>
@@ -188,13 +189,17 @@ export default function InteractiveMap({ showProjects = false }: InteractiveMapP
             {/* Stats Row */}
             <div className="grid grid-cols-2 gap-8 pt-4">
               <div>
-                <p className="text-3xl md:text-4xl font-cormorant text-[#50171D] mb-3">240+</p>
+                <p className="text-5xl md:text-6xl font-cormorant text-[#50171D] mb-3">
+                  <Counter value={240} suffix="+" />
+                </p>
                 <p className="text-[10px] md:text-xs font-raleway font-bold text-gray-400 uppercase tracking-widest leading-relaxed">
                   Projects Completed
                 </p>
               </div>
               <div>
-                <p className="text-3xl md:text-4xl font-cormorant text-[#50171D] mb-3">09</p>
+                <p className="text-5xl md:text-6xl font-cormorant text-[#50171D] mb-3">
+                  <Counter value={9} shouldFormatLeadingZero={true} />
+                </p>
                 <p className="text-[10px] md:text-xs font-raleway font-bold text-gray-400 uppercase tracking-widest leading-relaxed">
                   Provinces Reached
                 </p>
