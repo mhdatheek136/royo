@@ -25,7 +25,7 @@ export default function Hero({
 
   return (
     <section
-      className={`relative py-24 md:py-36 overflow-hidden ${bgColor}`}
+      className={`relative min-h-screen flex items-center justify-center overflow-hidden ${bgColor}`}
       style={backgroundImage ? {
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',

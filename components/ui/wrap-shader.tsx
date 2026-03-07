@@ -13,7 +13,7 @@ export default function WarpShaderHero({
     subtitle = "Bespoke interior experiences crafted for the discerning lifestyle in the heart of Sri Lanka"
 }: WarpShaderHeroProps) {
     return (
-        <main className="relative min-h-[90vh] md:min-h-screen overflow-hidden bg-royo-burgundy">
+        <main className="relative min-h-screen h-screen overflow-hidden bg-royo-burgundy">
             <div className="absolute inset-0">
                 <Warp
                     style={{ height: "100%", width: "100%" }}
@@ -36,9 +36,9 @@ export default function WarpShaderHero({
                 />
             </div>
 
-            <div className="relative z-10 min-h-[90vh] md:min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+            <div className="relative z-10 min-h-screen h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
                 <div className="max-w-5xl w-full text-center space-y-8 md:space-y-12">
-                    <h1 className="text-white text-5xl md:text-7xl lg:text-8xl font-cormorant font-bold text-balance leading-tight drop-shadow-2xl">
+                    <h1 className="text-white text-5xl md:text-7xl lg:text-8xl font-cormorant font-bold md:whitespace-nowrap leading-tight drop-shadow-2xl">
                         {title}
                     </h1>
 
