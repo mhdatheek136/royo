@@ -59,8 +59,8 @@ export default function ExpertisePage() {
               <div className="relative p-4 md:p-6 bg-white rounded-sm shadow-2xl transition-transform duration-700 hover:scale-[1.02]">
                 <div className="relative aspect-[4/5] overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1620619767323-b95a89183081?w=1200&h=1500&fit=crop"
-                    alt="Gypsum Moulding Detail"
+                    src="/expertise-gypsum-moulding.png"
+                    alt="White gypsum moulding wall design"
                     fill
                     className="object-cover"
                     loading="eager"

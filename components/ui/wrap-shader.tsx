@@ -11,7 +11,7 @@ interface WarpShaderHeroProps {
 
 export default function WarpShaderHero({
     title = "Interior Design - Done Right",
-    subtitle = "Bespoke interior experiences crafted for the discerning lifestyle in the heart of Sri Lanka"
+    subtitle = "Gypsum moulding is our core expertise, paired with bespoke interior experiences crafted for the discerning lifestyle in Sri Lanka."
 }: WarpShaderHeroProps) {
     return (
         <main className="relative min-h-screen h-screen overflow-hidden bg-royo-burgundy">
@@ -47,16 +47,16 @@ export default function WarpShaderHero({
                         {subtitle}
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-8">
+                    <div className="flex flex-col sm:flex-row gap-6 justify-center items-stretch pt-8 mx-auto">
                         <Link
                             href="/contact"
-                            className="px-10 py-5 bg-star-gold text-royo-burgundy rounded-full font-raleway font-bold uppercase tracking-widest text-xs hover:scale-105 transition-all duration-300 shadow-xl"
+                            className="sm:w-[220px] h-12 inline-flex items-center justify-center text-center px-8 bg-star-gold text-royo-burgundy rounded-full font-raleway font-bold uppercase tracking-widest text-xs hover:scale-105 transition-all duration-300 shadow-xl"
                         >
-                            Start a Project
+                            Contact Us
                         </Link>
                         <Link
                             href="/work"
-                            className="px-10 py-5 bg-off-white/10 backdrop-blur-md border border-off-white/20 rounded-full text-off-white font-raleway font-bold uppercase tracking-widest text-xs hover:bg-off-white/20 transition-all duration-300 hover:scale-105 shadow-xl"
+                            className="sm:w-[220px] h-12 inline-flex items-center justify-center text-center px-8 bg-off-white/10 backdrop-blur-md border border-off-white/20 rounded-full text-off-white font-raleway font-bold uppercase tracking-widest text-xs hover:bg-off-white/20 transition-all duration-300 hover:scale-105 shadow-xl"
                         >
                             View Our Work
                         </Link>

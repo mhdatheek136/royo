@@ -1,14 +1,12 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { AnimatedWatermark } from '@/components/ui/animated-watermark'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
-import Hero from '@/components/sections/Hero'
 import CTASection from '@/components/sections/CTASection'
 
 export const metadata = {
-  title: 'About Us - ROYO Interior Design',
-  description: 'Learn about ROYO Interior Design, our philosophy, values, and the leadership behind Sri Lanka\'s premier luxury interior design studio.',
+  title: 'About Us - Royo Gypsum',
+  description: 'Learn about Royo Gypsum, our philosophy, values, and design approach in Sri Lanka.',
 }
 
 import { DraftingCompass, PenTool, Diamond } from 'lucide-react'
@@ -17,66 +15,6 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-off-white">
       <Header />
-
-      {/* Hero Section */}
-      <Hero
-        title="Crafting the Soul of Space"
-        subtitle="High-End Luxury Interior Design - Sri Lanka"
-        showGradient={true}
-      />
-
-      {/* The Visionaries Section */}
-      <section className="py-20 md:py-32 bg-off-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-cormorant text-4xl md:text-5xl font-bold text-royo-burgundy mb-16 underline decoration-1 underline-offset-8">
-            The Visionaries
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
-            {/* Founder 1 */}
-            <div className="group">
-              <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] shadow-2xl mb-8">
-                <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop"
-                  alt="Founder"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
-                />
-              </div>
-              <h3 className="font-cormorant text-3xl font-bold text-rock-black mb-2">
-                Malith Perera
-              </h3>
-              <p className="text-star-gold font-raleway text-sm uppercase tracking-widest mb-6">
-                Founder & Design Director
-              </p>
-              <p className="text-rock-black opacity-80 leading-relaxed font-raleway">
-                A visionary in architectural volume and material tension. Malith specializes in merging heritage craftsmanship with global modernism, ensuring every ROYO project is a masterpiece of precision and soul.
-              </p>
-            </div>
-
-            {/* Founder 2 */}
-            <div className="group">
-              <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] shadow-2xl mb-8">
-                <Image
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&h=1000&fit=crop"
-                  alt="Co-Founder"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
-                />
-              </div>
-              <h3 className="font-cormorant text-3xl font-bold text-rock-black mb-2">
-                Sarah Alwis
-              </h3>
-              <p className="text-star-gold font-raleway text-sm uppercase tracking-widest mb-6">
-                Creative Consultant
-              </p>
-              <p className="text-rock-black opacity-80 leading-relaxed font-raleway">
-                With a background in fine arts and lighting design, Sarah brings an ethereal quality to the ROYO aesthetic. Her focus on sensory experiences ensures that our spaces aren't just seen, but felt.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* The ROYO Philosophy Section */}
       <section className="py-24 md:py-40 bg-white relative overflow-hidden">

@@ -1,8 +1,8 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useRef, useState } from 'react'
 import { useForm } from 'react-hook-form'
-import { CheckCircle, ArrowRight, RefreshCcw } from 'lucide-react'
+import { CheckCircle, RefreshCcw } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 interface ContactFormData {
@@ -16,6 +16,8 @@ interface ContactFormData {
 
 export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitError, setSubmitError] = useState('')
   const successCardRef = useRef<HTMLDivElement>(null)
   const { register, handleSubmit, reset, formState: { errors } } = useForm<ContactFormData>()
 
@@ -36,18 +38,37 @@ export default function ContactForm() {
   }
 
   const onSubmit = async (data: ContactFormData) => {
+    setIsSubmitting(true)
+    setSubmitError('')
+
     try {
-      // This can be connected to a backend API later
-      console.log('Form submitted:', data)
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+
+      const result = await response.json()
+
+      if (!response.ok || !result.success) {
+        throw new Error(result.error || 'Submission failed')
+      }
+
       setIsSubmitted(true)
     } catch (error) {
       console.error('Submission error:', error)
+      setSubmitError('We could not send your message right now. Please try again in a moment.')
+    } finally {
+      setIsSubmitting(false)
     }
   }
 
   const handleReset = () => {
     reset()
     setIsSubmitted(false)
+    setSubmitError('')
   }
 
   return (
@@ -73,30 +94,11 @@ export default function ContactForm() {
                 id="fullName"
                 type="text"
                 placeholder="Jonathan Doe"
+                disabled={isSubmitting}
                 className="w-full px-4 py-3 border-2 border-border rounded-none focus:border-royo-burgundy focus:outline-none bg-off-white text-rock-black placeholder-shown:text-shine-brown transition-colors"
               />
               {errors.fullName && (
                 <p className="text-red-500 text-sm mt-1">{errors.fullName.message}</p>
-              )}
-            </div>
-
-            {/* Email Address */}
-            <div>
-              <label htmlFor="email" className="block text-sm font-raleway font-semibold text-rock-black mb-2 uppercase tracking-wider">
-                Email Address
-              </label>
-              <input
-                {...register('email', {
-                  required: 'Email is required',
-                  pattern: { value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, message: 'Invalid email' }
-                })}
-                id="email"
-                type="email"
-                placeholder="email@studio.com"
-                className="w-full px-4 py-3 border-2 border-border rounded-none focus:border-royo-burgundy focus:outline-none bg-off-white text-rock-black placeholder-shown:text-shine-brown transition-colors"
-              />
-              {errors.email && (
-                <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
               )}
             </div>
 
@@ -110,6 +112,7 @@ export default function ContactForm() {
                 id="phone"
                 type="tel"
                 placeholder="+94 77 123 4567"
+                disabled={isSubmitting}
                 className="w-full px-4 py-3 border-2 border-border rounded-none focus:border-royo-burgundy focus:outline-none bg-off-white text-rock-black placeholder-shown:text-shine-brown transition-colors"
               />
               {errors.phone && (
@@ -117,14 +120,38 @@ export default function ContactForm() {
               )}
             </div>
 
+            {/* Email Address */}
+            <div>
+              <label htmlFor="email" className="block text-sm font-raleway font-semibold text-rock-black mb-2 uppercase tracking-wider">
+                Email Address (Optional)
+              </label>
+              <input
+                {...register('email', {
+                  pattern: {
+                    value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                    message: 'Invalid email'
+                  }
+                })}
+                id="email"
+                type="email"
+                placeholder="email@studio.com"
+                disabled={isSubmitting}
+                className="w-full px-4 py-3 border-2 border-border rounded-none focus:border-royo-burgundy focus:outline-none bg-off-white text-rock-black placeholder-shown:text-shine-brown transition-colors"
+              />
+              {errors.email && (
+                <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
+              )}
+            </div>
+
             {/* Project Type */}
             <div>
               <label htmlFor="projectType" className="block text-sm font-raleway font-semibold text-rock-black mb-2 uppercase tracking-wider">
-                Project Type
+                Project Type (Optional)
               </label>
               <select
-                {...register('projectType', { required: 'Project type is required' })}
+                {...register('projectType')}
                 id="projectType"
+                disabled={isSubmitting}
                 className="w-full px-4 py-3 border-2 border-border rounded-none focus:border-royo-burgundy focus:outline-none bg-off-white text-rock-black transition-colors"
               >
                 <option value="">Select project type</option>
@@ -133,52 +160,50 @@ export default function ContactForm() {
                 <option value="gypsum-art">Gypsum Art & Moulding</option>
                 <option value="other">Other</option>
               </select>
-              {errors.projectType && (
-                <p className="text-red-500 text-sm mt-1">{errors.projectType.message}</p>
-              )}
             </div>
 
             {/* Location */}
             <div>
               <label htmlFor="location" className="block text-sm font-raleway font-semibold text-rock-black mb-2 uppercase tracking-wider">
-                Location
+                Location (Optional)
               </label>
               <input
-                {...register('location', { required: 'Location is required' })}
+                {...register('location')}
                 id="location"
                 type="text"
                 placeholder="City, Country"
+                disabled={isSubmitting}
                 className="w-full px-4 py-3 border-2 border-border rounded-none focus:border-royo-burgundy focus:outline-none bg-off-white text-rock-black placeholder-shown:text-shine-brown transition-colors"
               />
-              {errors.location && (
-                <p className="text-red-500 text-sm mt-1">{errors.location.message}</p>
-              )}
             </div>
 
             {/* Vision Description */}
             <div>
               <label htmlFor="vision" className="block text-sm font-raleway font-semibold text-rock-black mb-2 uppercase tracking-wider">
-                Describe Your Vision
+                Describe Your Vision (Optional)
               </label>
               <textarea
-                {...register('vision', { required: 'Please describe your vision' })}
+                {...register('vision')}
                 id="vision"
                 placeholder="Tell us about your project requirements and style preferences..."
                 rows={6}
+                disabled={isSubmitting}
                 className="w-full px-4 py-3 border-2 border-border rounded-none focus:border-royo-burgundy focus:outline-none bg-off-white text-rock-black placeholder-shown:text-shine-brown transition-colors resize-none"
               />
-              {errors.vision && (
-                <p className="text-red-500 text-sm mt-1">{errors.vision.message}</p>
-              )}
             </div>
+
+            {submitError && (
+              <p className="text-red-600 text-sm">{submitError}</p>
+            )}
 
             {/* Submit Button */}
             <div className="pt-6">
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-royo-burgundy text-off-white font-raleway font-semibold uppercase tracking-wider hover:bg-opacity-90 hover:scale-[1.02] hover:shadow-xl transition-all duration-300 rounded-xl"
+                disabled={isSubmitting}
+                className="w-full px-8 py-4 bg-royo-burgundy text-off-white font-raleway font-semibold uppercase tracking-wider hover:bg-opacity-90 hover:scale-[1.02] hover:shadow-xl transition-all duration-300 rounded-xl disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:scale-100"
               >
-                Send Inquiry
+                {isSubmitting ? 'Sending...' : 'Send Inquiry'}
               </button>
             </div>
           </motion.form>

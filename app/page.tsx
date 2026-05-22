@@ -14,7 +14,7 @@ export default function Home() {
       {/* Hero Section */}
       <WarpShaderHero
         title="Interior Design - Done Right"
-        subtitle="Bespoke interior experiences crafted for the discerning lifestyle in the heart of Sri Lanka"
+        subtitle="Gypsum moulding is our core expertise, paired with bespoke interior experiences crafted for the discerning lifestyle in Sri Lanka."
       />
 
       {/* Featured Projects */}

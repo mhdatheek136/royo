@@ -8,7 +8,6 @@ export default function Footer() {
     <footer className="bg-off-white border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {/* Brand */}
           <div>
             <div className="relative h-8 w-32 mb-4">
               <Image
@@ -19,11 +18,19 @@ export default function Footer() {
               />
             </div>
             <p className="text-sm text-rock-black opacity-70">
-              Luxury Interior Design. Sri Lanka.
+              Royo Gypsum. Molding and interior design in Kurunegala.
             </p>
+            <div className="mt-4 space-y-2 text-sm text-rock-black opacity-80">
+              <a href="mailto:info@royo.lk" className="block hover:text-royo-burgundy transition-colors">
+                info@royo.lk
+              </a>
+              <a href="tel:+94701009991" className="block hover:text-royo-burgundy transition-colors">
+                070 100 9991 / 070 100 9992
+              </a>
+              <p>No. 119, Bauddhaloka Road, Puwakgas Junction, Kurunegala</p>
+            </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="font-raleway font-semibold text-rock-black mb-4 uppercase text-sm tracking-wider">
               Navigation
@@ -57,7 +64,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
           <div>
             <h4 className="font-raleway font-semibold text-rock-black mb-4 uppercase text-sm tracking-wider">
               Legal
@@ -77,10 +83,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Copyright */}
         <div className="border-t border-border pt-8">
           <p className="text-center text-sm text-rock-black opacity-70">
-            © {currentYear} ROYO Interior Designs. All rights reserved.
+            Copyright {currentYear} Royo Gypsum. All rights reserved.
           </p>
         </div>
       </div>
