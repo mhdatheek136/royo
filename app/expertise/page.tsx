@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
 import CTASection from '@/components/sections/CTASection'
+import LocationGrid from '@/components/sections/LocationGrid'
 
 export const metadata = {
   title: 'Expertise - ROYO Interior Design',
@@ -252,7 +253,11 @@ export default function ExpertisePage() {
         </div>
       </section>
 
-
+      <LocationGrid
+        limit={6}
+        showViewAll={true}
+        subtitle="Browse city-specific pages built around where our work already has local project relevance, from Kurunegala and Colombo to Kandy and beyond."
+      />
 
       <Footer />
     </div>

@@ -31,16 +31,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '8,500 sqft',
     clientType: 'Private HNI',
-    description: 'A masterpiece of colonial heritage blended with modern luxury.',
-    narrative: 'The architectural concept for The Galle Heritage Villa centers on reimagining the essence of classical elements and contemporary minimalism. By preserving the original coral stone walls and high timber ceilings, we created a canvas for modern luxury that respects the historical notes. Our design team focused on the "secret wall" concept, introducing glass-roofed courtyards that allow tropical Sri Lankan sunlight to filter through such indoor vegetation, reflecting a bespoke polished concrete and reclaimed teak wood. Every piece of furniture was custom-crafted to bridge the tension between unique silhouettes and modern ergonomic. The Galle Heritage Villa stands as a testament to our belief that luxury is not just an aesthetic—it\'s a feeling—harmony between the built environment and the natural spirit of its location.',
+    description: 'A luxurious colonial restoration in Galle, seamlessly blending 18th-century architecture with bespoke modern luxury and artisanal gypsum artistry.',
+    narrative: 'Set within the historic walls of Galle, this heritage villa restoration is a masterclass in balancing preservation with contemporary elegance. We retained the original white coral stone walls and towering timber ceilings, introducing a magnificent glass-roofed courtyard that floods the interior with tropical sunlight. At the heart of the design is our artisanal gypsum moulding, meticulously hand-crafted to bridge classic colonial proportions with minimalist modern luxury. Paired with reclaimed teak furniture and polished concrete floors, the villa stands as a timeless sanctuary of coastal sophistication.',
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800',
-      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800',
-      'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800',
+      '/projects/galle-heritage-villa-1.jpg',
+      '/projects/galle-heritage-villa-2.jpg',
+      '/projects/galle-heritage-villa-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Artisanal Gypsum Moulding - To honour the built environment, we integrated bespoke gypsum mouldings along the top two ceilings. These patterns were hand-sketched by our senior designers, drawing inspiration from both local architecture and traditional Sri Lankan patterns and motifs.'
+      description: 'Artisanal gypsum cornices and archways, hand-sketched by our senior designers to honor traditional Sri Lankan motifs while maintaining crisp, modern lines.'
     }
   },
   {
@@ -53,15 +53,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '12,000 sqft',
     clientType: 'Private Family',
-    description: 'Luxury beachfront residence with panoramic ocean views.',
-    narrative: 'The Villa Bay represents our interpretation of coastal luxury—where light, space, and materiality converge. The design philosophy centered on creating zones of intimacy within expansive open-plan living. We employed a sophisticated palette of warm neutrals, polished brass, and natural stone to create a serene sanctuary.',
+    description: 'An ultra-modern beachfront residence in Colombo, defined by expansive ocean views, sleek minimalist lines, and sophisticated ceiling architecture.',
+    narrative: 'The Villa Bay represents the pinnacle of modern coastal luxury in Colombo. Designed to maximize panoramic views of the Indian Ocean, the open-plan living spaces are bathed in natural light filtering through floor-to-ceiling glass. We employed a refined palette of warm neutrals, natural stone, and polished brass accents. The crowning feature is the completely custom geometric gypsum ceiling architecture, which integrates seamless, hidden LED cove lighting to create a serene, floating effect that perfectly complements the beachfront atmosphere.',
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800',
-      'https://images.unsplash.com/photo-1516455207990-7f88b842e32f?w=800',
+      '/projects/the-villa-bay-1.jpg',
+      '/projects/the-villa-bay-2.jpg',
+      '/projects/the-villa-bay-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Custom gypsum ceiling installations with integrated LED lighting systems.'
+      description: 'Sleek, modern gypsum ceiling installations featuring integrated hidden LED cove lighting for a sophisticated, floating architectural effect.'
     }
   },
   {
@@ -74,15 +75,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '6,500 sqft',
     clientType: 'Boutique Hotel',
-    description: 'Contemporary boutique hotel with heritage influences.',
-    narrative: 'Coconut Inn showcases our commitment to blending Sri Lankan heritage with contemporary design. The space celebrates local craftsmanship and materials.',
+    description: 'A vibrant boutique hotel in Jaffna that harmonizes rich Northern cultural heritage with clean, contemporary minimalist interior design.',
+    narrative: 'Located in the cultural heart of Jaffna, Coconut Inn is a celebration of local craftsmanship reimagined through a modern lens. The interior architecture relies on warm earthy tones, robust palmyra wood accents, and locally sourced stone. We introduced clean, contemporary gypsum wall paneling and subtle ceiling drops to bring structure and modernity to the spaces without overpowering the traditional aesthetic. The result is a high-end hospitality environment that feels deeply rooted in its location yet entirely luxurious.',
     images: [
-      'https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800',
-      'https://images.unsplash.com/photo-1523455086753-6f3031224c94?w=800',
+      '/projects/coconut-inn-1.jpg',
+      '/projects/coconut-inn-2.jpg',
+      '/projects/coconut-inn-3.jpg',
     ],
     features: {
-      gypsumMoulding: false,
-      description: 'Modern minimalist approach with local material integration.'
+      gypsumMoulding: true,
+      description: 'Contemporary, minimalist gypsum wall detailing and recessed ceiling drops that provide clean architectural lines to balance traditional materials.'
     }
   },
   {
@@ -95,15 +97,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '10,000 sqft',
     clientType: 'Luxury Hotel',
-    description: 'Highland resort with mountain views and luxury amenities.',
-    narrative: 'Set in the misty highlands of Nuwara Eliya, this project celebrates cool-climate luxury. The design incorporates warm wood tones, layered lighting, and intimate seating areas that encourage gathering.',
+    description: 'A prestigious highland resort in Nuwara Eliya, offering cool-climate luxury, warm wood interiors, and classic architectural detailing.',
+    narrative: 'Perched in the misty, tea-covered mountains of Nuwara Eliya, The Hilton High is a sanctuary of cool-climate luxury. The interior design leans into a classic, warm aesthetic featuring dark wood paneling, plush velvet seating, and glowing fireplaces. To elevate the sense of heritage luxury, we implemented exquisite, traditional gypsum moulding across the grand ceilings and feature walls. This intricate detailing, combined with layered ambient lighting, creates an atmosphere of timeless, intimate grandeur.',
     images: [
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800',
-      'https://images.unsplash.com/photo-1567016432779-094d6e44efd2?w=800',
+      '/projects/the-hilton-high-1.jpg',
+      '/projects/the-hilton-high-2.jpg',
+      '/projects/the-hilton-high-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Decorative gypsum work with traditional motifs.'
+      description: 'Exquisite, classical gypsum ceiling medallions and elaborate cornices that evoke the grandeur of heritage mountain estates.'
     }
   },
   {
@@ -116,15 +119,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '9,200 sqft',
     clientType: 'Private Villa',
-    description: 'Modern villa with panoramic views of the ancient rock fortress.',
-    narrative: 'This residence reimagines luxury through the lens of its extraordinary landscape. Every design decision was made to frame and celebrate the Sigiriya rock formation visible from the property. We created a home that is a viewing platform for natural majesty.',
+    description: 'A breathtaking modern villa designed as a viewing platform for the ancient Sigiriya rock fortress, blending nature with architectural precision.',
+    narrative: 'Sigiriya High View reimagines luxury by blurring the lines between interior comfort and the raw beauty of the surrounding jungle. Every spatial decision was made to frame the majestic Sigiriya rock fortress through massive panoramic windows. To keep the focus on the landscape, we utilized ultra-clean, modern gypsum ceilings and subtle cove lighting that provides a soft glow without reflecting on the glass. The minimalist design is anchored by an artistic custom gypsum feature wall, incorporating a subtle organic tree motif that grounds the home in its tropical environment.',
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800',
-      'https://images.unsplash.com/photo-1618219944342-824e40a13202?w=800',
+      '/projects/sigiriya-high-view-1.jpg',
+      '/projects/sigiriya-high-view-2.jpg',
+      '/projects/sigiriya-high-view-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Artistic gypsum feature wall with tree motif design.'
+      description: 'An artistic, custom-sculpted gypsum feature wall with an organic tree motif, alongside ultra-clean minimalist ceilings.'
     }
   },
   {
@@ -137,15 +141,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '15,000 sqft',
     clientType: 'Heritage Hotel',
-    description: 'Boutique hotel celebrating Sri Lankan cultural heritage.',
-    narrative: 'Indiana Hotel presents a contemporary interpretation of Sri Lankan design traditions. We blended modern comfort with cultural authenticity.',
+    description: 'A grand heritage boutique hotel in Kandy, masterfully blending traditional Kandyan art motifs with sophisticated luxury design.',
+    narrative: 'Indiana Hotel is a luxurious homage to the cultural richness of Kandy. The grand lobby immediately sets a tone of majestic hospitality, featuring soaring ceilings supported by intricate dark wood columns. We elevated the space by designing complex, Kandyan-inspired gypsum moulding that sweeps across the ceiling and frames the elegant archways. Soft architectural lighting highlights the depth of this craftsmanship, while plush velvet seating and brass accents provide a warm, inviting luxury experience.',
     images: [
-      'https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800',
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800',
+      '/projects/indiana-hotel-1.jpg',
+      '/projects/indiana-hotel-2.jpg',
+      '/projects/indiana-hotel-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Heritage-inspired gypsum mouldings throughout public spaces.'
+      description: 'Complex, heritage-inspired gypsum moulding and archways drawing directly from traditional Kandyan architectural motifs.'
     }
   },
   {
@@ -158,15 +163,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '4,500 sqft',
     clientType: 'Private Apartment',
-    description: 'Ultra-modern city penthouse with smart home technology.',
-    narrative: 'A contemporary urban sanctuary that showcases minimalist design principles with maximum comfort. The loft features floor-to-ceiling windows and an open floor plan.',
+    description: 'An ultra-modern, high-contrast penthouse in the heart of Colombo, featuring smart home technology and sharp, minimalist architecture.',
+    narrative: 'Floating above the bustling city, the Colombo Sky Loft is a triumph of ultra-modern urban design. The penthouse features a striking high-contrast monochrome palette, polished concrete floors, and a dramatic floating staircase. We pushed the boundaries of interior architecture with perfectly smooth, sharp-edged white gypsum feature walls and custom ceiling drops that seamlessly hide the advanced smart home lighting systems. The result is a sleek, futuristic living space that feels both cutting-edge and deeply comfortable.',
     images: [
-      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800',
-      'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800',
+      '/projects/colombo-sky-loft-1.jpg',
+      '/projects/colombo-sky-loft-2.jpg',
+      '/projects/colombo-sky-loft-3.jpg',
     ],
     features: {
-      gypsumMoulding: false,
-      description: 'Clean lines and modern minimalism dominate this space.'
+      gypsumMoulding: true,
+      description: 'Perfectly smooth, sharp-edged modern gypsum ceiling drops designed to seamlessly conceal advanced smart home LED lighting systems.'
     }
   },
   {
@@ -179,15 +185,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '7,800 sqft',
     clientType: 'Private Residence',
-    description: 'Coastal sanctuary with authentic East Coast charm.',
-    narrative: 'This beachfront residence celebrates the laid-back elegance of Sri Lanka\'s east coast. The design emphasizes openness, natural materials, and the constant presence of the ocean.',
+    description: 'A serene coastal sanctuary in Batticaloa, embracing natural light, authentic East Coast charm, and breezy, open-air elegance.',
+    narrative: 'This beachfront residence is designed to capture the laid-back, sun-drenched essence of Sri Lanka\'s East Coast. The spaces flow effortlessly from the indoor living areas out to the pristine beach. We utilized a light, airy material palette of rattan, white linen, and natural stone. To enhance the brightness of the home, crisp white gypsum ceilings and beautifully crafted, subtle gypsum archways were introduced. These elements reflect the tropical sunlight and add a touch of refined elegance to the relaxed coastal atmosphere.',
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800',
-      'https://images.unsplash.com/photo-1516455207990-7f88b842e32f?w=800',
+      '/projects/batticaloa-beachfront-1.jpg',
+      '/projects/batticaloa-beachfront-2.jpg',
+      '/projects/batticaloa-beachfront-3.jpg',
     ],
     features: {
-      gypsumMoulding: false,
-      description: 'Natural materials and coastal minimalism.'
+      gypsumMoulding: true,
+      description: 'Crisp white gypsum ceilings and beautifully crafted, subtle room-transition archways that enhance natural light and coastal elegance.'
     }
   },
   {
@@ -200,14 +207,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '8,000 sqft',
     clientType: 'Cultural Center',
-    description: 'Museum and cultural center honoring ancient Sri Lankan civilization.',
-    narrative: 'A tribute to the ancient kingdom of Anuradhapura, this project merges historical reverence with contemporary architecture. The design creates spaces for cultural exploration and artistic expression.',
+    description: 'A majestic cultural center and museum in Anuradhapura, balancing solemn historical reverence with clean, contemporary spatial design.',
+    narrative: 'Serving as a tribute to Sri Lanka\'s ancient first kingdom, the Anuradhapura Heritage center is a space of profound tranquility and respect. The grand minimalist galleries are designed to let the ancient artifacts take center stage, illuminated by precise, soft spotlighting. We drew inspiration from ancient temple architecture to create archival, bespoke gypsum ceiling work and stunning vertical light-wells. Executed with modern precision, this gypsum detailing provides a solemn, majestic canopy over the historical exhibits.',
     images: [
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800',
+      '/projects/anuradhapura-heritage-1.jpg',
+      '/projects/anuradhapura-heritage-2.jpg',
+      '/projects/anuradhapura-heritage-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Archival gypsum work inspired by ancient temple architecture.'
+      description: 'Archival, bespoke gypsum ceiling work and vertical light-wells inspired by ancient temple architecture, executed with modern precision.'
     }
   },
   {
@@ -220,15 +229,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '11,000 sqft',
     clientType: 'Private Estate',
-    description: 'Grand residence with historical Southern Province character.',
-    narrative: 'The Matara Mansion represents our work in the Southern Province—blending Portuguese colonial heritage with contemporary luxury. Every room tells a story of cultural fusion.',
+    description: 'A grand luxury estate in the Southern Province, celebrating opulent Portuguese colonial heritage and expansive, wealthy proportions.',
+    narrative: 'The Matara Mansion is a statement of uncompromising luxury and historical grandeur in the Southern Province. The estate features large arched windows, long mahogany dining tables, and luxurious vintage furnishings. The crowning achievement of the interior is the incredibly elaborate, bespoke gypsum ceiling work. Featuring classical floral motifs and deep, rich cornices, the gypsum artistry provides a breathtaking backdrop for the elegant modern chandeliers, creating a space of true aristocratic presence.',
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800',
-      'https://images.unsplash.com/photo-1618219944342-824e40a13202?w=800',
+      '/projects/matara-mansion-1.jpg',
+      '/projects/matara-mansion-2.jpg',
+      '/projects/matara-mansion-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Elaborate gypsum ceiling work with classical motifs.'
+      description: 'Incredibly elaborate, bespoke gypsum ceiling work featuring deep cornices and classical floral motifs highlighting modern chandeliers.'
     }
   },
   {
@@ -241,14 +251,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '12,500 sqft',
     clientType: 'Wellness Center',
-    description: 'Luxury wellness resort with spa and meditation spaces.',
-    narrative: 'Kandy Spa Resort creates an atmosphere of serene luxury. Inspired by traditional Ayurvedic principles and contemporary wellness design.',
+    description: 'A tranquil luxury wellness resort in Kandy, designed around organic shapes, natural materials, and supreme acoustic comfort.',
+    narrative: 'Designed as an ultimate sanctuary for relaxation, the Kandy Spa Resort embraces zen-like tranquility. The interiors heavily feature natural timber cladding, indoor water features, and raw stone bathtubs overlooking the misty jungle. To enhance the acoustic and visual softness of the meditation and treatment rooms, we installed beautiful, decorative gypsum ceilings with soft, organic curves. The gentle, indirect lighting bouncing off these curved gypsum surfaces creates a profoundly calming, immersive wellness environment.',
     images: [
-      'https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800',
+      '/projects/kandy-spa-resort-1.jpg',
+      '/projects/kandy-spa-resort-2.jpg',
+      '/projects/kandy-spa-resort-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Acoustic and decorative gypsum installations for wellness spaces.'
+      description: 'Beautiful, acoustically optimized decorative gypsum ceilings featuring soft, organic curves and subtle vertical texturing.'
     }
   },
   {
@@ -261,14 +273,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '5,000 sqft',
     clientType: 'Gem Trading House',
-    description: 'Contemporary office space for precious stone trading.',
-    narrative: 'This office celebrates the gemstone heritage of Ratnapura with modern professional spaces. The design incorporates luxury materials and sophisticated finishes.',
+    description: 'A sophisticated, high-end gem trading office in Ratnapura, projecting absolute professionalism, security, and refined luxury.',
+    narrative: 'Located in the City of Gems, this trading office is designed to host high-net-worth clients in an atmosphere of absolute luxury and discretion. The interiors utilize dark moody tones, velvet armchairs, brass accents, and rich wood paneling alongside secure glass display cases. We integrated subtle, sharp geometric gypsum ceiling moulding and premium gypsum wall paneling in the private meeting rooms. This precise, polished architectural detailing perfectly mirrors the facets of the precious stones being traded.',
     images: [
-      'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800',
+      '/projects/ratnapura-office-1.jpg',
+      '/projects/ratnapura-office-2.jpg',
+      '/projects/ratnapura-office-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Subtle gypsum work with geometric patterns.'
+      description: 'Precise, sharp geometric gypsum ceiling moulding and premium wall paneling that projects professional polish and high-end luxury.'
     }
   },
   {
@@ -281,14 +295,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '9,500 sqft',
     clientType: 'Private Family',
-    description: 'Family home with contemporary Sri Lankan design.',
-    narrative: 'Set in the North Western Province, this residence celebrates local culture and modern comfort. The design creates spaces for family gatherings and personal retreats.',
+    description: 'A contemporary luxury family home in Kurunegala, blending spacious open-plan living with highly customized interior architectural details.',
+    narrative: 'This expansive residence in the North Western Province was designed to be the perfect backdrop for modern family life and sophisticated entertaining. The large open-plan living and dining areas are flooded with warm natural light and furnished with elegant contemporary pieces. To give the home its unique character, we designed and installed custom bespoke gypsum feature walls featuring subtle 3D geometric patterns. Highlighted by soft grazing light, these walls add a layer of rich, tactile luxury to the comfortable family spaces.',
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800',
+      '/projects/kurunegala-residence-1.jpg',
+      '/projects/kurunegala-residence-2.jpg',
+      '/projects/kurunegala-residence-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Custom gypsum feature walls throughout main living areas.'
+      description: 'Custom bespoke gypsum feature walls incorporating subtle 3D geometric patterns, highlighted by sophisticated grazing light.'
     }
   },
   {
@@ -301,14 +317,16 @@ export const projects: Project[] = [
     year: 2023,
     area: '7,200 sqft',
     clientType: 'Historic Site Center',
-    description: 'Cultural heritage center in the Uva Province.',
-    narrative: 'This project honors the heritage and natural beauty of Badulla. The design integrates with the landscape and celebrates the region\'s tea estate culture.',
+    description: 'A culturally significant heritage center in Badulla, featuring rooted, calm interiors that beautifully frame the surrounding tea estates.',
+    narrative: 'The Badulla Heritage center honors the rich history and natural beauty of the Uva Province. The building features warm timber floors and tall arched windows that provide stunning views of the lush, rolling tea estates. Our interior design approach was one of careful restraint and cultural respect. We framed the grand arched windows and upper gallery walls with elegant, traditional Sri Lankan motif gypsum installations. This beautiful craftsmanship grounds the space, offering a calm, culturally significant atmosphere.',
     images: [
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800',
+      '/projects/badulla-heritage-1.jpg',
+      '/projects/badulla-heritage-2.jpg',
+      '/projects/badulla-heritage-3.jpg',
     ],
     features: {
       gypsumMoulding: true,
-      description: 'Traditional motif gypsum installations.'
+      description: 'Elegant, traditional Sri Lankan motif gypsum installations framing tall arched windows and upper gallery walls.'
     }
   },
 ]
@@ -319,6 +337,10 @@ export const getProjectsByCategory = (category: Category) => {
 
 export const getProjectsByProvince = (province: Province) => {
   return projects.filter(p => p.province === province)
+}
+
+export const getProjectsByLocation = (location: string) => {
+  return projects.filter(p => p.location.toLowerCase() === location.toLowerCase())
 }
 
 export const getProjectBySlug = (slug: string) => {

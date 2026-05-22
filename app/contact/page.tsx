@@ -3,6 +3,7 @@ import { Globe, Mail, MapPin, Phone } from 'lucide-react'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
 import ContactForm from '@/components/sections/ContactForm'
+import LocationGrid from '@/components/sections/LocationGrid'
 import { TextAnimate } from '@/components/ui/text-animate'
 import { AnimatedWatermark } from '@/components/ui/animated-watermark'
 
@@ -50,16 +51,7 @@ export default function ContactPage() {
                 </h2>
                 <div className="w-full h-px bg-gray-200 mb-10" />
 
-                <div className="relative aspect-square overflow-hidden rounded-2xl mb-12 shadow-xl border border-gray-100">
-                  <Image
-                    src="https://images.unsplash.com/photo-1620619767323-b95a89183081?w=1200&h=1200&fit=crop"
-                    alt="Royo Gypsum"
-                    fill
-                    className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
-                  />
-                </div>
-
-                <div className="space-y-12">
+                <div className="space-y-12 mb-12">
                   <div className="flex gap-6 items-start">
                     <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center shadow-md text-royo-burgundy flex-shrink-0">
                       <MapPin className="w-5 h-5" />
@@ -127,6 +119,15 @@ export default function ContactPage() {
                     </div>
                   </div>
                 </div>
+
+                <div className="relative aspect-square overflow-hidden rounded-2xl shadow-xl border border-gray-100">
+                  <Image
+                    src="https://images.unsplash.com/photo-1620619767323-b95a89183081?w=1200&h=1200&fit=crop"
+                    alt="Royo Gypsum"
+                    fill
+                    className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -152,6 +153,12 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <LocationGrid
+        limit={6}
+        showViewAll={true}
+        subtitle="If you are searching by area first, explore the city-specific pages where we highlight gypsum moulding and interior design relevance for each location."
+      />
 
       <Footer />
     </div>

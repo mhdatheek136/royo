@@ -12,7 +12,8 @@ export default function Header() {
   const pathname = usePathname()
   const isHome = pathname === '/'
   const isExpertise = pathname === '/expertise'
-  const isTransparentHero = isHome || isExpertise
+  const isLocations = pathname === '/locations'
+  const isTransparentHero = isHome || isExpertise || isLocations
 
   useEffect(() => {
     const handleScroll = () => {

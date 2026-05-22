@@ -184,6 +184,14 @@ export default function InteractiveMap({ showProjects = false }: InteractiveMapP
               <p className="text-gray-500 font-raleway text-sm md:text-base leading-relaxed max-w-lg mb-12">
                 From the historical hills of Kandy to the coastal elegance of Galle, our designs are woven into the cultural tapestry of Sri Lanka's nine provinces. We bring international luxury standards to local heritage structures.
               </p>
+              <div className="flex flex-col sm:flex-row gap-4 items-start">
+                <Link
+                  href="/locations"
+                  className="inline-block px-8 py-4 bg-[#50171D] text-white font-raleway font-semibold uppercase tracking-wider hover:bg-opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 rounded-xl text-center"
+                >
+                  Explore Locations
+                </Link>
+              </div>
             </div>
 
             {/* Stats Row */}
