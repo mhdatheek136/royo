@@ -18,7 +18,7 @@ export default function GypsumFeature() {
           <div className="relative h-96 md:h-[600px] rounded-2xl overflow-visible order-2 lg:order-1">
             <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=1600&fit=crop"
+                src="/gypsum-feature.jpg"
                 alt="Artisanal Gypsum Moulding Detail"
                 fill
                 className="object-cover"
