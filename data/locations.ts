@@ -1,4 +1,4 @@
-import { getProjectsByLocation } from '@/data/projects'
+import { getPortfolioProjectsByCity } from '@/data/portfolio'
 
 export interface LocationFaq {
   question: string
@@ -282,6 +282,86 @@ export const locations: LocationContent[] = [
       }
     ],
     nearbyAreas: ['Bandarawela', 'Ella', 'Hali-Ela']
+  },
+  {
+    slug: 'ampara',
+    cityName: 'Ampara',
+    provinceName: 'Eastern Province',
+    heroImage: '/portfolio/large/Ampara/ampara-001.webp',
+    heroAlt: 'Completed interior work by Royo in Ampara',
+    intro: 'Our Ampara portfolio brings together practical planning and carefully finished interiors, with gypsum detailing used to give each space a composed architectural presence.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Ampara | Royo',
+    seoDescription: 'Explore completed gypsum moulding and interior design work in Ampara by Royo.',
+    faq: [
+      {
+        question: 'Do you offer gypsum moulding and interior design in Ampara?',
+        answer: 'Yes. We support residential and selected commercial projects in Ampara with gypsum moulding, interior detailing, and finish coordination.'
+      },
+      {
+        question: 'Can you work outside Ampara town?',
+        answer: 'Yes. Site coverage can extend to nearby areas depending on the project scope and requirements.'
+      }
+    ]
+  },
+  {
+    slug: 'kegalle',
+    cityName: 'Kegalle',
+    provinceName: 'Sabaragamuwa Province',
+    heroImage: '/portfolio/large/Kegalle/kegalle-001.webp',
+    heroAlt: 'Completed interior work by Royo in Kegalle',
+    intro: 'In Kegalle, our work focuses on durable interior finishes, calm composition, and gypsum detailing that adds character without overpowering the space.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Kegalle | Royo',
+    seoDescription: 'Explore completed gypsum moulding and interior design work in Kegalle by Royo.',
+    faq: [
+      {
+        question: 'Do you take on residential interiors in Kegalle?',
+        answer: 'Yes. We provide interior design and gypsum moulding support for homes and selected commercial spaces in Kegalle.'
+      },
+      {
+        question: 'Can your team coordinate finish-level detailing?',
+        answer: 'Yes. Our work includes gypsum features and broader coordination of the finishes that shape the final space.'
+      }
+    ]
+  },
+  {
+    slug: 'kilinochchi',
+    cityName: 'Kilinochchi',
+    provinceName: 'Northern Province',
+    heroImage: '/portfolio/large/Kilinochchi/kilinochchi-001.webp',
+    heroAlt: 'Completed interior work by Royo in Kilinochchi',
+    intro: 'Our Kilinochchi projects pair clean spatial planning with confident finish choices, creating interiors that feel considered, functional, and visually clear.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Kilinochchi | Royo',
+    seoDescription: 'Explore completed gypsum moulding and interior design work in Kilinochchi by Royo.',
+    faq: [
+      {
+        question: 'Do you provide interior work in Kilinochchi?',
+        answer: 'Yes. We support interior design, gypsum moulding, and finish-led detailing for projects in Kilinochchi.'
+      },
+      {
+        question: 'Can the design direction stay modern and restrained?',
+        answer: 'Yes. Gypsum and interior detailing can be tailored to a clean contemporary look as well as more decorative briefs.'
+      }
+    ]
+  },
+  {
+    slug: 'kuliyapitiya',
+    cityName: 'Kuliyapitiya',
+    provinceName: 'North Western Province',
+    heroImage: '/portfolio/large/Kuliyapitiya/kuliyapitiya-001.webp',
+    heroAlt: 'Completed interior work by Royo in Kuliyapitiya',
+    intro: 'Our Kuliyapitiya portfolio reflects a practical, finish-conscious approach to interiors, with tailored gypsum details and a strong focus on how each room is experienced.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Kuliyapitiya | Royo',
+    seoDescription: 'Explore completed gypsum moulding and interior design work in Kuliyapitiya by Royo.',
+    faq: [
+      {
+        question: 'Do you offer gypsum moulding in Kuliyapitiya?',
+        answer: 'Yes. We provide gypsum moulding and interior design support for homes and selected commercial spaces in Kuliyapitiya.'
+      },
+      {
+        question: 'Can you support projects across the wider district?',
+        answer: 'Yes. Coverage can extend beyond the town area depending on site access and the project scope.'
+      }
+    ]
   }
 ]
 
@@ -293,5 +373,5 @@ export const getProjectsForLocationSlug = (slug: string) => {
   const location = getLocationBySlug(slug)
   if (!location) return []
 
-  return getProjectsByLocation(location.cityName)
+  return getPortfolioProjectsByCity(location.cityName)
 }

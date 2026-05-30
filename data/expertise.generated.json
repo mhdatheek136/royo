@@ -1,0 +1,573 @@
+{
+  "generatedAt": "2026-05-30T14:08:07.016Z",
+  "expertise": [
+    {
+      "slug": "gypsum-works",
+      "title": "Gypsum Works",
+      "sourceFolders": [
+        "Ceiling Works",
+        "Wall Finishes"
+      ],
+      "description": "Precision gypsum craftsmanship for sculpted ceilings, refined wall detailing, and architectural finishes that give interiors a lasting sense of character.",
+      "isSignature": true,
+      "coverImage": {
+        "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-003.webp",
+        "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-003.webp"
+      },
+      "images": [
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-001.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-001.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-002.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-002.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-003.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-003.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-004.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-004.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-005.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-005.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-006.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-006.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-007.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-007.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-008.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-008.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-009.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-009.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-010.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-010.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-011.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-011.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-012.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-012.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-013.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-013.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-014.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-014.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-015.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-015.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-016.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-016.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-017.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-017.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-018.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-018.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-019.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-019.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-020.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-020.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-021.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-021.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-022.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-022.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-023.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-023.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-024.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-024.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-025.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-025.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-026.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-026.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-027.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-027.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-028.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-028.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-029.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-029.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-030.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-030.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-031.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-031.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-032.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-032.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-033.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-033.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-034.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-034.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-001.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-001.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-002.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-002.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-003.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-003.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-004.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-004.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-005.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-005.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-006.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-006.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-007.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-007.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-008.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-008.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-009.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-009.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-010.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-010.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-011.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-011.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-012.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-012.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-013.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-013.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-014.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-014.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-015.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-015.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-016.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-016.webp"
+        }
+      ]
+    },
+    {
+      "slug": "ceiling-works",
+      "title": "Ceiling Works",
+      "sourceFolders": [
+        "Ceiling Works"
+      ],
+      "description": "Layered ceiling compositions, feature details, and carefully finished overhead elements shaped around proportion, lighting, and spatial rhythm.",
+      "isSignature": false,
+      "coverImage": {
+        "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-007.webp",
+        "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-007.webp"
+      },
+      "images": [
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-001.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-001.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-002.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-002.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-003.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-003.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-004.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-004.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-005.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-005.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-006.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-006.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-007.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-007.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-008.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-008.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-009.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-009.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-010.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-010.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-011.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-011.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-012.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-012.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-013.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-013.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-014.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-014.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-015.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-015.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-016.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-016.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-017.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-017.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-018.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-018.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-019.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-019.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-020.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-020.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-021.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-021.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-022.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-022.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-023.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-023.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-024.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-024.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-025.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-025.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-026.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-026.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-027.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-027.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-028.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-028.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-029.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-029.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-030.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-030.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-031.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-031.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-032.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-032.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-033.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-033.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Ceiling Works/unassigned-ceiling-works-034.webp",
+          "large": "/expertise/large/Ceiling Works/unassigned-ceiling-works-034.webp"
+        }
+      ]
+    },
+    {
+      "slug": "wall-finishes",
+      "title": "Wall Finishes",
+      "sourceFolders": [
+        "Wall Finishes"
+      ],
+      "description": "Feature walls, framed panels, sculptural surfaces, and refined finishing details that turn plain walls into intentional architectural moments.",
+      "isSignature": false,
+      "coverImage": {
+        "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-010.webp",
+        "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-010.webp"
+      },
+      "images": [
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-001.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-001.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-002.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-002.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-003.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-003.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-004.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-004.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-005.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-005.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-006.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-006.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-007.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-007.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-008.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-008.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-009.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-009.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-010.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-010.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-011.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-011.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-012.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-012.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-013.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-013.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-014.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-014.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-015.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-015.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Wall Finishes/unassigned-wall-finishes-016.webp",
+          "large": "/expertise/large/Wall Finishes/unassigned-wall-finishes-016.webp"
+        }
+      ]
+    },
+    {
+      "slug": "pantry-interiors",
+      "title": "Pantry Interiors",
+      "sourceFolders": [
+        "Pantry Interiors"
+      ],
+      "description": "Practical, polished pantry interiors with thoughtful storage, clean material coordination, and a calm visual finish suited to everyday use.",
+      "isSignature": false,
+      "coverImage": {
+        "thumb": "/expertise/thumb/Pantry Interiors/unassigned-pantry-interiors-003.webp",
+        "large": "/expertise/large/Pantry Interiors/unassigned-pantry-interiors-003.webp"
+      },
+      "images": [
+        {
+          "thumb": "/expertise/thumb/Pantry Interiors/unassigned-pantry-interiors-001.webp",
+          "large": "/expertise/large/Pantry Interiors/unassigned-pantry-interiors-001.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Pantry Interiors/unassigned-pantry-interiors-002.webp",
+          "large": "/expertise/large/Pantry Interiors/unassigned-pantry-interiors-002.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Pantry Interiors/unassigned-pantry-interiors-003.webp",
+          "large": "/expertise/large/Pantry Interiors/unassigned-pantry-interiors-003.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Pantry Interiors/unassigned-pantry-interiors-004.webp",
+          "large": "/expertise/large/Pantry Interiors/unassigned-pantry-interiors-004.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Pantry Interiors/unassigned-pantry-interiors-005.webp",
+          "large": "/expertise/large/Pantry Interiors/unassigned-pantry-interiors-005.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Pantry Interiors/unassigned-pantry-interiors-006.webp",
+          "large": "/expertise/large/Pantry Interiors/unassigned-pantry-interiors-006.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Pantry Interiors/unassigned-pantry-interiors-007.webp",
+          "large": "/expertise/large/Pantry Interiors/unassigned-pantry-interiors-007.webp"
+        }
+      ]
+    },
+    {
+      "slug": "roofing-metal-welding",
+      "title": "Roofing & Metal Welding",
+      "sourceFolders": [
+        "Roofing and Metal Welding"
+      ],
+      "description": "Roofing, structural metalwork, and welding solutions executed with durability, alignment, and dependable real-world construction logic.",
+      "isSignature": false,
+      "coverImage": {
+        "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-006.webp",
+        "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-006.webp"
+      },
+      "images": [
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-001.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-001.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-002.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-002.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-003.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-003.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-004.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-004.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-005.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-005.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-006.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-006.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-007.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-007.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-008.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-008.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-009.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-009.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-010.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-010.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-011.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-011.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-012.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-012.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-013.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-013.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-014.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-014.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-015.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-015.webp"
+        },
+        {
+          "thumb": "/expertise/thumb/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-016.webp",
+          "large": "/expertise/large/Roofing and Metal Welding/unassigned-roofing-and-metal-welding-016.webp"
+        }
+      ]
+    }
+  ]
+}

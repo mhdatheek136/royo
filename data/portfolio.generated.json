@@ -1,0 +1,1774 @@
+{
+  "generatedAt": "2026-05-30T14:08:05.938Z",
+  "cities": [
+    {
+      "slug": "ampara",
+      "name": "Ampara",
+      "province": "eastern",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Ampara/ampara-002.webp",
+        "large": "/portfolio/large/Ampara/ampara-002.webp"
+      },
+      "gallery": [
+        {
+          "thumb": "/portfolio/thumb/Ampara/ampara-001.webp",
+          "large": "/portfolio/large/Ampara/ampara-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Ampara/ampara-002.webp",
+          "large": "/portfolio/large/Ampara/ampara-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Ampara/ampara-003.webp",
+          "large": "/portfolio/large/Ampara/ampara-003.webp"
+        }
+      ],
+      "projects": [
+        "ampara-residential-property-01"
+      ]
+    },
+    {
+      "slug": "batticaloa",
+      "name": "Batticaloa",
+      "province": "eastern",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Batticaloa/batticaloa-004.webp",
+        "large": "/portfolio/large/Batticaloa/batticaloa-004.webp"
+      },
+      "gallery": [
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-001.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-002.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-003.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-004.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-004.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-005.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-005.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-006.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-006.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-007.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-007.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-008.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-008.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-009.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-009.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-010.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-010.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-011.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-011.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-012.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-012.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-013.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-013.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-014.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-014.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/batticaloa-015.webp",
+          "large": "/portfolio/large/Batticaloa/batticaloa-015.webp"
+        }
+      ],
+      "projects": [
+        "batticaloa-banquet-hall-01",
+        "batticaloa-residential-property-01"
+      ]
+    },
+    {
+      "slug": "colombo",
+      "name": "Colombo",
+      "province": "western",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Colombo/colombo-006.webp",
+        "large": "/portfolio/large/Colombo/colombo-006.webp"
+      },
+      "gallery": [
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-001.webp",
+          "large": "/portfolio/large/Colombo/colombo-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-002.webp",
+          "large": "/portfolio/large/Colombo/colombo-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-003.webp",
+          "large": "/portfolio/large/Colombo/colombo-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-004.webp",
+          "large": "/portfolio/large/Colombo/colombo-004.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-005.webp",
+          "large": "/portfolio/large/Colombo/colombo-005.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-006.webp",
+          "large": "/portfolio/large/Colombo/colombo-006.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-007.webp",
+          "large": "/portfolio/large/Colombo/colombo-007.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-008.webp",
+          "large": "/portfolio/large/Colombo/colombo-008.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-009.webp",
+          "large": "/portfolio/large/Colombo/colombo-009.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-010.webp",
+          "large": "/portfolio/large/Colombo/colombo-010.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-011.webp",
+          "large": "/portfolio/large/Colombo/colombo-011.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-012.webp",
+          "large": "/portfolio/large/Colombo/colombo-012.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-013.webp",
+          "large": "/portfolio/large/Colombo/colombo-013.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-014.webp",
+          "large": "/portfolio/large/Colombo/colombo-014.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-015.webp",
+          "large": "/portfolio/large/Colombo/colombo-015.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-016.webp",
+          "large": "/portfolio/large/Colombo/colombo-016.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-017.webp",
+          "large": "/portfolio/large/Colombo/colombo-017.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-018.webp",
+          "large": "/portfolio/large/Colombo/colombo-018.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-019.webp",
+          "large": "/portfolio/large/Colombo/colombo-019.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-020.webp",
+          "large": "/portfolio/large/Colombo/colombo-020.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-021.webp",
+          "large": "/portfolio/large/Colombo/colombo-021.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-022.webp",
+          "large": "/portfolio/large/Colombo/colombo-022.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-023.webp",
+          "large": "/portfolio/large/Colombo/colombo-023.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-024.webp",
+          "large": "/portfolio/large/Colombo/colombo-024.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-025.webp",
+          "large": "/portfolio/large/Colombo/colombo-025.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-026.webp",
+          "large": "/portfolio/large/Colombo/colombo-026.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-027.webp",
+          "large": "/portfolio/large/Colombo/colombo-027.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-028.webp",
+          "large": "/portfolio/large/Colombo/colombo-028.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-029.webp",
+          "large": "/portfolio/large/Colombo/colombo-029.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-030.webp",
+          "large": "/portfolio/large/Colombo/colombo-030.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-031.webp",
+          "large": "/portfolio/large/Colombo/colombo-031.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-032.webp",
+          "large": "/portfolio/large/Colombo/colombo-032.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-033.webp",
+          "large": "/portfolio/large/Colombo/colombo-033.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-034.webp",
+          "large": "/portfolio/large/Colombo/colombo-034.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-035.webp",
+          "large": "/portfolio/large/Colombo/colombo-035.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-036.webp",
+          "large": "/portfolio/large/Colombo/colombo-036.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-037.webp",
+          "large": "/portfolio/large/Colombo/colombo-037.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-038.webp",
+          "large": "/portfolio/large/Colombo/colombo-038.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-039.webp",
+          "large": "/portfolio/large/Colombo/colombo-039.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-040.webp",
+          "large": "/portfolio/large/Colombo/colombo-040.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-041.webp",
+          "large": "/portfolio/large/Colombo/colombo-041.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-042.webp",
+          "large": "/portfolio/large/Colombo/colombo-042.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-043.webp",
+          "large": "/portfolio/large/Colombo/colombo-043.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-044.webp",
+          "large": "/portfolio/large/Colombo/colombo-044.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-045.webp",
+          "large": "/portfolio/large/Colombo/colombo-045.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-046.webp",
+          "large": "/portfolio/large/Colombo/colombo-046.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-047.webp",
+          "large": "/portfolio/large/Colombo/colombo-047.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-048.webp",
+          "large": "/portfolio/large/Colombo/colombo-048.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-049.webp",
+          "large": "/portfolio/large/Colombo/colombo-049.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-050.webp",
+          "large": "/portfolio/large/Colombo/colombo-050.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-051.webp",
+          "large": "/portfolio/large/Colombo/colombo-051.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/colombo-052.webp",
+          "large": "/portfolio/large/Colombo/colombo-052.webp"
+        }
+      ],
+      "projects": [
+        "colombo-banquet-hall-01",
+        "colombo-residential-property-01",
+        "colombo-residential-property-02",
+        "colombo-residential-property-03",
+        "colombo-retail-interior-01"
+      ]
+    },
+    {
+      "slug": "galle",
+      "name": "Galle",
+      "province": "southern",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Galle/galle-002.webp",
+        "large": "/portfolio/large/Galle/galle-002.webp"
+      },
+      "gallery": [
+        {
+          "thumb": "/portfolio/thumb/Galle/galle-001.webp",
+          "large": "/portfolio/large/Galle/galle-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Galle/galle-002.webp",
+          "large": "/portfolio/large/Galle/galle-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Galle/galle-003.webp",
+          "large": "/portfolio/large/Galle/galle-003.webp"
+        }
+      ],
+      "projects": [
+        "galle-banquet-hall-01"
+      ]
+    },
+    {
+      "slug": "jaffna",
+      "name": "Jaffna",
+      "province": "northern",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Jaffna/jaffna-008.webp",
+        "large": "/portfolio/large/Jaffna/jaffna-008.webp"
+      },
+      "gallery": [
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-001.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-002.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-003.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-004.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-004.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-005.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-005.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-006.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-006.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-007.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-007.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-008.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-008.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-009.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-009.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-010.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-010.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-011.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-011.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/jaffna-012.webp",
+          "large": "/portfolio/large/Jaffna/jaffna-012.webp"
+        }
+      ],
+      "projects": [
+        "jaffna-residential-property-01",
+        "jaffna-residential-property-02"
+      ]
+    },
+    {
+      "slug": "kandy",
+      "name": "Kandy",
+      "province": "central",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kandy/kandy-001.webp",
+        "large": "/portfolio/large/Kandy/kandy-001.webp"
+      },
+      "gallery": [
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-001.webp",
+          "large": "/portfolio/large/Kandy/kandy-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-002.webp",
+          "large": "/portfolio/large/Kandy/kandy-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-003.webp",
+          "large": "/portfolio/large/Kandy/kandy-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-004.webp",
+          "large": "/portfolio/large/Kandy/kandy-004.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-005.webp",
+          "large": "/portfolio/large/Kandy/kandy-005.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-006.webp",
+          "large": "/portfolio/large/Kandy/kandy-006.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-007.webp",
+          "large": "/portfolio/large/Kandy/kandy-007.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-008.webp",
+          "large": "/portfolio/large/Kandy/kandy-008.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-009.webp",
+          "large": "/portfolio/large/Kandy/kandy-009.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-010.webp",
+          "large": "/portfolio/large/Kandy/kandy-010.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-011.webp",
+          "large": "/portfolio/large/Kandy/kandy-011.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-012.webp",
+          "large": "/portfolio/large/Kandy/kandy-012.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-013.webp",
+          "large": "/portfolio/large/Kandy/kandy-013.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-014.webp",
+          "large": "/portfolio/large/Kandy/kandy-014.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-015.webp",
+          "large": "/portfolio/large/Kandy/kandy-015.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-016.webp",
+          "large": "/portfolio/large/Kandy/kandy-016.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/kandy-017.webp",
+          "large": "/portfolio/large/Kandy/kandy-017.webp"
+        }
+      ],
+      "projects": [
+        "kandy-banquet-hall-01",
+        "kandy-residential-property-01",
+        "kandy-residential-property-02",
+        "kandy-residential-property-03"
+      ]
+    },
+    {
+      "slug": "kegalle",
+      "name": "Kegalle",
+      "province": "sabaragamuwa",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kegalle/kegalle-002.webp",
+        "large": "/portfolio/large/Kegalle/kegalle-002.webp"
+      },
+      "gallery": [
+        {
+          "thumb": "/portfolio/thumb/Kegalle/kegalle-001.webp",
+          "large": "/portfolio/large/Kegalle/kegalle-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kegalle/kegalle-002.webp",
+          "large": "/portfolio/large/Kegalle/kegalle-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kegalle/kegalle-003.webp",
+          "large": "/portfolio/large/Kegalle/kegalle-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kegalle/kegalle-004.webp",
+          "large": "/portfolio/large/Kegalle/kegalle-004.webp"
+        }
+      ],
+      "projects": [
+        "kegalle-residential-property-01"
+      ]
+    },
+    {
+      "slug": "kilinochchi",
+      "name": "Kilinochchi",
+      "province": "northern",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-001.webp",
+        "large": "/portfolio/large/Kilinochchi/kilinochchi-001.webp"
+      },
+      "gallery": [
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-001.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-002.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-003.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-004.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-004.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-005.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-005.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-006.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-006.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-007.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-007.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-008.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-008.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-009.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-009.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-010.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-010.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-011.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-011.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/kilinochchi-012.webp",
+          "large": "/portfolio/large/Kilinochchi/kilinochchi-012.webp"
+        }
+      ],
+      "projects": [
+        "kilinochchi-residential-property-01",
+        "kilinochchi-residential-property-02"
+      ]
+    },
+    {
+      "slug": "kuliyapitiya",
+      "name": "Kuliyapitiya",
+      "province": "north-western",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-012.webp",
+        "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-012.webp"
+      },
+      "gallery": [
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-001.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-002.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-003.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-004.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-004.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-005.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-005.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-006.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-006.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-007.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-007.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-008.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-008.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-009.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-009.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-010.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-010.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-011.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-011.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-012.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-012.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-013.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-013.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-014.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-014.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/kuliyapitiya-015.webp",
+          "large": "/portfolio/large/Kuliyapitiya/kuliyapitiya-015.webp"
+        }
+      ],
+      "projects": [
+        "kuliyapitiya-residential-property-01"
+      ]
+    },
+    {
+      "slug": "kurunegala",
+      "name": "Kurunegala",
+      "province": "north-western",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kurunegala/kurunegala-065.webp",
+        "large": "/portfolio/large/Kurunegala/kurunegala-065.webp"
+      },
+      "gallery": [
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-001.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-002.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-003.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-004.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-004.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-005.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-005.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-006.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-006.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-007.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-007.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-008.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-008.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-009.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-009.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-010.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-010.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-011.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-011.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-012.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-012.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-013.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-013.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-014.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-014.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-015.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-015.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-016.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-016.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-017.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-017.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-018.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-018.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-019.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-019.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-020.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-020.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-021.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-021.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-022.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-022.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-023.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-023.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-024.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-024.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-025.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-025.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-026.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-026.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-027.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-027.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-028.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-028.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-029.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-029.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-030.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-030.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-031.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-031.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-032.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-032.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-033.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-033.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-034.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-034.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-035.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-035.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-036.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-036.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-037.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-037.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-038.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-038.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-039.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-039.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-040.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-040.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-041.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-041.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-042.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-042.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-043.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-043.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-044.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-044.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-045.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-045.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-046.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-046.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-047.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-047.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-048.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-048.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-049.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-049.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-050.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-050.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-051.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-051.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-052.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-052.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-053.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-053.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-054.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-054.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-055.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-055.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-056.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-056.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-057.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-057.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-058.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-058.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-059.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-059.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-060.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-060.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-061.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-061.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-062.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-062.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-063.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-063.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-064.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-064.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-065.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-065.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-066.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-066.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-067.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-067.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-068.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-068.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-069.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-069.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-070.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-070.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-071.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-071.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-072.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-072.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-073.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-073.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-074.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-074.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-075.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-075.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-076.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-076.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-077.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-077.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-078.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-078.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-079.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-079.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-080.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-080.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-081.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-081.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-082.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-082.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-083.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-083.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/kurunegala-084.webp",
+          "large": "/portfolio/large/Kurunegala/kurunegala-084.webp"
+        }
+      ],
+      "projects": [
+        "kurunegala-banquet-hall-01",
+        "kurunegala-banquet-hall-02",
+        "kurunegala-banquet-hall-03",
+        "kurunegala-residential-property-01",
+        "kurunegala-residential-property-02",
+        "kurunegala-retail-interior-01"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "ampara-residential-property-01",
+      "title": "Ampara Residential Property 01",
+      "city": "Ampara",
+      "province": "eastern",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 01",
+      "area": "9,300 sqft",
+      "description": "Residential Property 01 in Ampara, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Ampara/Residential Properties/Residential Property 01/ampara-residential-properties-002.webp",
+        "large": "/portfolio/large/Ampara/Residential Properties/Residential Property 01/ampara-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Ampara/Residential Properties/Residential Property 01/ampara-residential-properties-001.webp",
+          "large": "/portfolio/large/Ampara/Residential Properties/Residential Property 01/ampara-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Ampara/Residential Properties/Residential Property 01/ampara-residential-properties-002.webp",
+          "large": "/portfolio/large/Ampara/Residential Properties/Residential Property 01/ampara-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Ampara/Residential Properties/Residential Property 01/ampara-residential-properties-003.webp",
+          "large": "/portfolio/large/Ampara/Residential Properties/Residential Property 01/ampara-residential-properties-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "batticaloa-banquet-hall-01",
+      "title": "Batticaloa Banquet Hall 01",
+      "city": "Batticaloa",
+      "province": "eastern",
+      "category": "Banquet Halls",
+      "projectGroup": "Banquet Hall 01",
+      "area": "7,050 sqft",
+      "description": "Banquet Hall 01 in Batticaloa, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-001.webp",
+        "large": "/portfolio/large/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-001.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-001.webp",
+          "large": "/portfolio/large/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-002.webp",
+          "large": "/portfolio/large/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-003.webp",
+          "large": "/portfolio/large/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-004.webp",
+          "large": "/portfolio/large/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-004.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-005.webp",
+          "large": "/portfolio/large/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-005.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-006.webp",
+          "large": "/portfolio/large/Batticaloa/Banquet Halls/Banquet Hall 01/batticaloa-banquet-halls-006.webp"
+        }
+      ]
+    },
+    {
+      "slug": "batticaloa-residential-property-01",
+      "title": "Batticaloa Residential Property 01",
+      "city": "Batticaloa",
+      "province": "eastern",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 01",
+      "area": "7,800 sqft",
+      "description": "Residential Property 01 in Batticaloa, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-002.webp",
+        "large": "/portfolio/large/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-001.webp",
+          "large": "/portfolio/large/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-002.webp",
+          "large": "/portfolio/large/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-003.webp",
+          "large": "/portfolio/large/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-004.webp",
+          "large": "/portfolio/large/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-004.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-005.webp",
+          "large": "/portfolio/large/Batticaloa/Residential Properties/Residential Property 01/batticaloa-residential-properties-005.webp"
+        }
+      ]
+    },
+    {
+      "slug": "colombo-banquet-hall-01",
+      "title": "Colombo Banquet Hall 01",
+      "city": "Colombo",
+      "province": "western",
+      "category": "Banquet Halls",
+      "projectGroup": "Banquet Hall 01",
+      "area": "4,300 sqft",
+      "description": "Banquet Hall 01 in Colombo, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Colombo/Banquet Halls/Banquet Hall 01/colombo-banquet-halls-002.webp",
+        "large": "/portfolio/large/Colombo/Banquet Halls/Banquet Hall 01/colombo-banquet-halls-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Colombo/Banquet Halls/Banquet Hall 01/colombo-banquet-halls-001.webp",
+          "large": "/portfolio/large/Colombo/Banquet Halls/Banquet Hall 01/colombo-banquet-halls-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/Banquet Halls/Banquet Hall 01/colombo-banquet-halls-002.webp",
+          "large": "/portfolio/large/Colombo/Banquet Halls/Banquet Hall 01/colombo-banquet-halls-002.webp"
+        }
+      ]
+    },
+    {
+      "slug": "colombo-residential-property-01",
+      "title": "Colombo Residential Property 01",
+      "city": "Colombo",
+      "province": "western",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 01",
+      "area": "7,050 sqft",
+      "description": "Residential Property 01 in Colombo, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 01/colombo-residential-properties-002.webp",
+        "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 01/colombo-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 01/colombo-residential-properties-001.webp",
+          "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 01/colombo-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 01/colombo-residential-properties-002.webp",
+          "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 01/colombo-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 01/colombo-residential-properties-003.webp",
+          "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 01/colombo-residential-properties-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "colombo-residential-property-02",
+      "title": "Colombo Residential Property 02",
+      "city": "Colombo",
+      "province": "western",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 02",
+      "area": "3,800 sqft",
+      "description": "Residential Property 02 in Colombo, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 02/colombo-residential-properties-002.webp",
+        "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 02/colombo-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 02/colombo-residential-properties-001.webp",
+          "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 02/colombo-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 02/colombo-residential-properties-002.webp",
+          "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 02/colombo-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 02/colombo-residential-properties-003.webp",
+          "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 02/colombo-residential-properties-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 02/colombo-residential-properties-004.webp",
+          "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 02/colombo-residential-properties-004.webp"
+        }
+      ]
+    },
+    {
+      "slug": "colombo-residential-property-03",
+      "title": "Colombo Residential Property 03",
+      "city": "Colombo",
+      "province": "western",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 03",
+      "area": "6,300 sqft",
+      "description": "Residential Property 03 in Colombo, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 03/colombo-residential-properties-002.webp",
+        "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 03/colombo-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 03/colombo-residential-properties-001.webp",
+          "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 03/colombo-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 03/colombo-residential-properties-002.webp",
+          "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 03/colombo-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/Residential Properties/Residential Property 03/colombo-residential-properties-003.webp",
+          "large": "/portfolio/large/Colombo/Residential Properties/Residential Property 03/colombo-residential-properties-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "colombo-retail-interior-01",
+      "title": "Colombo Retail Interior 01",
+      "city": "Colombo",
+      "province": "western",
+      "category": "Retail Interiors",
+      "projectGroup": "Retail Interior 01",
+      "area": "10,800 sqft",
+      "description": "Retail Interior 01 in Colombo, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Colombo/Retail Interiors/Retail Interior 01/colombo-retail-interiors-001.webp",
+        "large": "/portfolio/large/Colombo/Retail Interiors/Retail Interior 01/colombo-retail-interiors-001.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Colombo/Retail Interiors/Retail Interior 01/colombo-retail-interiors-001.webp",
+          "large": "/portfolio/large/Colombo/Retail Interiors/Retail Interior 01/colombo-retail-interiors-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/Retail Interiors/Retail Interior 01/colombo-retail-interiors-002.webp",
+          "large": "/portfolio/large/Colombo/Retail Interiors/Retail Interior 01/colombo-retail-interiors-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Colombo/Retail Interiors/Retail Interior 01/colombo-retail-interiors-003.webp",
+          "large": "/portfolio/large/Colombo/Retail Interiors/Retail Interior 01/colombo-retail-interiors-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "galle-banquet-hall-01",
+      "title": "Galle Banquet Hall 01",
+      "city": "Galle",
+      "province": "southern",
+      "category": "Banquet Halls",
+      "projectGroup": "Banquet Hall 01",
+      "area": "5,800 sqft",
+      "description": "Banquet Hall 01 in Galle, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Galle/Banquet Halls/Banquet Hall 01/galle-banquet-halls-002.webp",
+        "large": "/portfolio/large/Galle/Banquet Halls/Banquet Hall 01/galle-banquet-halls-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Galle/Banquet Halls/Banquet Hall 01/galle-banquet-halls-001.webp",
+          "large": "/portfolio/large/Galle/Banquet Halls/Banquet Hall 01/galle-banquet-halls-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Galle/Banquet Halls/Banquet Hall 01/galle-banquet-halls-002.webp",
+          "large": "/portfolio/large/Galle/Banquet Halls/Banquet Hall 01/galle-banquet-halls-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Galle/Banquet Halls/Banquet Hall 01/galle-banquet-halls-003.webp",
+          "large": "/portfolio/large/Galle/Banquet Halls/Banquet Hall 01/galle-banquet-halls-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "jaffna-residential-property-01",
+      "title": "Jaffna Residential Property 01",
+      "city": "Jaffna",
+      "province": "northern",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 01",
+      "area": "11,800 sqft",
+      "description": "Residential Property 01 in Jaffna, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Jaffna/Residential Properties/Residential Property 01/jaffna-residential-properties-002.webp",
+        "large": "/portfolio/large/Jaffna/Residential Properties/Residential Property 01/jaffna-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Jaffna/Residential Properties/Residential Property 01/jaffna-residential-properties-001.webp",
+          "large": "/portfolio/large/Jaffna/Residential Properties/Residential Property 01/jaffna-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/Residential Properties/Residential Property 01/jaffna-residential-properties-002.webp",
+          "large": "/portfolio/large/Jaffna/Residential Properties/Residential Property 01/jaffna-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/Residential Properties/Residential Property 01/jaffna-residential-properties-003.webp",
+          "large": "/portfolio/large/Jaffna/Residential Properties/Residential Property 01/jaffna-residential-properties-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/Residential Properties/Residential Property 01/jaffna-residential-properties-004.webp",
+          "large": "/portfolio/large/Jaffna/Residential Properties/Residential Property 01/jaffna-residential-properties-004.webp"
+        }
+      ]
+    },
+    {
+      "slug": "jaffna-residential-property-02",
+      "title": "Jaffna Residential Property 02",
+      "city": "Jaffna",
+      "province": "northern",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 02",
+      "area": "5,800 sqft",
+      "description": "Residential Property 02 in Jaffna, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Jaffna/Residential Properties/Residential Property 02/jaffna-residential-properties-002.webp",
+        "large": "/portfolio/large/Jaffna/Residential Properties/Residential Property 02/jaffna-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Jaffna/Residential Properties/Residential Property 02/jaffna-residential-properties-001.webp",
+          "large": "/portfolio/large/Jaffna/Residential Properties/Residential Property 02/jaffna-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/Residential Properties/Residential Property 02/jaffna-residential-properties-002.webp",
+          "large": "/portfolio/large/Jaffna/Residential Properties/Residential Property 02/jaffna-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/Residential Properties/Residential Property 02/jaffna-residential-properties-003.webp",
+          "large": "/portfolio/large/Jaffna/Residential Properties/Residential Property 02/jaffna-residential-properties-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Jaffna/Residential Properties/Residential Property 02/jaffna-residential-properties-004.webp",
+          "large": "/portfolio/large/Jaffna/Residential Properties/Residential Property 02/jaffna-residential-properties-004.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kandy-banquet-hall-01",
+      "title": "Kandy Banquet Hall 01",
+      "city": "Kandy",
+      "province": "central",
+      "category": "Banquet Halls",
+      "projectGroup": "Banquet Hall 01",
+      "area": "4,300 sqft",
+      "description": "Banquet Hall 01 in Kandy, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kandy/Banquet Halls/Banquet Hall 01/kandy-banquet-halls-003.webp",
+        "large": "/portfolio/large/Kandy/Banquet Halls/Banquet Hall 01/kandy-banquet-halls-003.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kandy/Banquet Halls/Banquet Hall 01/kandy-banquet-halls-001.webp",
+          "large": "/portfolio/large/Kandy/Banquet Halls/Banquet Hall 01/kandy-banquet-halls-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/Banquet Halls/Banquet Hall 01/kandy-banquet-halls-002.webp",
+          "large": "/portfolio/large/Kandy/Banquet Halls/Banquet Hall 01/kandy-banquet-halls-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/Banquet Halls/Banquet Hall 01/kandy-banquet-halls-003.webp",
+          "large": "/portfolio/large/Kandy/Banquet Halls/Banquet Hall 01/kandy-banquet-halls-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/Banquet Halls/Banquet Hall 01/kandy-banquet-halls-004.webp",
+          "large": "/portfolio/large/Kandy/Banquet Halls/Banquet Hall 01/kandy-banquet-halls-004.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kandy-residential-property-01",
+      "title": "Kandy Residential Property 01",
+      "city": "Kandy",
+      "province": "central",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 01",
+      "area": "6,800 sqft",
+      "description": "Residential Property 01 in Kandy, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 01/kandy-residential-properties-001.webp",
+        "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 01/kandy-residential-properties-001.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 01/kandy-residential-properties-001.webp",
+          "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 01/kandy-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 01/kandy-residential-properties-002.webp",
+          "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 01/kandy-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 01/kandy-residential-properties-003.webp",
+          "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 01/kandy-residential-properties-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kandy-residential-property-02",
+      "title": "Kandy Residential Property 02",
+      "city": "Kandy",
+      "province": "central",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 02",
+      "area": "5,550 sqft",
+      "description": "Residential Property 02 in Kandy, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 02/kandy-residential-properties-002.webp",
+        "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 02/kandy-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 02/kandy-residential-properties-001.webp",
+          "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 02/kandy-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 02/kandy-residential-properties-002.webp",
+          "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 02/kandy-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 02/kandy-residential-properties-003.webp",
+          "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 02/kandy-residential-properties-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kandy-residential-property-03",
+      "title": "Kandy Residential Property 03",
+      "city": "Kandy",
+      "province": "central",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 03",
+      "area": "11,050 sqft",
+      "description": "Residential Property 03 in Kandy, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 03/kandy-residential-properties-002.webp",
+        "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 03/kandy-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 03/kandy-residential-properties-001.webp",
+          "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 03/kandy-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 03/kandy-residential-properties-002.webp",
+          "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 03/kandy-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kandy/Residential Properties/Residential Property 03/kandy-residential-properties-003.webp",
+          "large": "/portfolio/large/Kandy/Residential Properties/Residential Property 03/kandy-residential-properties-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kegalle-residential-property-01",
+      "title": "Kegalle Residential Property 01",
+      "city": "Kegalle",
+      "province": "sabaragamuwa",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 01",
+      "area": "6,800 sqft",
+      "description": "Residential Property 01 in Kegalle, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kegalle/Residential Properties/Residential Property 01/kegalle-residential-properties-001.webp",
+        "large": "/portfolio/large/Kegalle/Residential Properties/Residential Property 01/kegalle-residential-properties-001.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kegalle/Residential Properties/Residential Property 01/kegalle-residential-properties-001.webp",
+          "large": "/portfolio/large/Kegalle/Residential Properties/Residential Property 01/kegalle-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kegalle/Residential Properties/Residential Property 01/kegalle-residential-properties-002.webp",
+          "large": "/portfolio/large/Kegalle/Residential Properties/Residential Property 01/kegalle-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kegalle/Residential Properties/Residential Property 01/kegalle-residential-properties-003.webp",
+          "large": "/portfolio/large/Kegalle/Residential Properties/Residential Property 01/kegalle-residential-properties-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kilinochchi-residential-property-01",
+      "title": "Kilinochchi Residential Property 01",
+      "city": "Kilinochchi",
+      "province": "northern",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 01",
+      "area": "3,800 sqft",
+      "description": "Residential Property 01 in Kilinochchi, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kilinochchi/Residential Properties/Residential Property 01/kilinochchi-residential-properties-001.webp",
+        "large": "/portfolio/large/Kilinochchi/Residential Properties/Residential Property 01/kilinochchi-residential-properties-001.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/Residential Properties/Residential Property 01/kilinochchi-residential-properties-001.webp",
+          "large": "/portfolio/large/Kilinochchi/Residential Properties/Residential Property 01/kilinochchi-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/Residential Properties/Residential Property 01/kilinochchi-residential-properties-002.webp",
+          "large": "/portfolio/large/Kilinochchi/Residential Properties/Residential Property 01/kilinochchi-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/Residential Properties/Residential Property 01/kilinochchi-residential-properties-003.webp",
+          "large": "/portfolio/large/Kilinochchi/Residential Properties/Residential Property 01/kilinochchi-residential-properties-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/Residential Properties/Residential Property 01/kilinochchi-residential-properties-004.webp",
+          "large": "/portfolio/large/Kilinochchi/Residential Properties/Residential Property 01/kilinochchi-residential-properties-004.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kilinochchi-residential-property-02",
+      "title": "Kilinochchi Residential Property 02",
+      "city": "Kilinochchi",
+      "province": "northern",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 02",
+      "area": "7,800 sqft",
+      "description": "Residential Property 02 in Kilinochchi, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kilinochchi/Residential Properties/Residential Property 02/kilinochchi-residential-properties-003.webp",
+        "large": "/portfolio/large/Kilinochchi/Residential Properties/Residential Property 02/kilinochchi-residential-properties-003.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/Residential Properties/Residential Property 02/kilinochchi-residential-properties-001.webp",
+          "large": "/portfolio/large/Kilinochchi/Residential Properties/Residential Property 02/kilinochchi-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/Residential Properties/Residential Property 02/kilinochchi-residential-properties-002.webp",
+          "large": "/portfolio/large/Kilinochchi/Residential Properties/Residential Property 02/kilinochchi-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kilinochchi/Residential Properties/Residential Property 02/kilinochchi-residential-properties-003.webp",
+          "large": "/portfolio/large/Kilinochchi/Residential Properties/Residential Property 02/kilinochchi-residential-properties-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kuliyapitiya-residential-property-01",
+      "title": "Kuliyapitiya Residential Property 01",
+      "city": "Kuliyapitiya",
+      "province": "north-western",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 01",
+      "area": "3,300 sqft",
+      "description": "Residential Property 01 in Kuliyapitiya, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kuliyapitiya/Residential Properties/Residential Property 01/kuliyapitiya-residential-properties-002.webp",
+        "large": "/portfolio/large/Kuliyapitiya/Residential Properties/Residential Property 01/kuliyapitiya-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/Residential Properties/Residential Property 01/kuliyapitiya-residential-properties-001.webp",
+          "large": "/portfolio/large/Kuliyapitiya/Residential Properties/Residential Property 01/kuliyapitiya-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/Residential Properties/Residential Property 01/kuliyapitiya-residential-properties-002.webp",
+          "large": "/portfolio/large/Kuliyapitiya/Residential Properties/Residential Property 01/kuliyapitiya-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/Residential Properties/Residential Property 01/kuliyapitiya-residential-properties-003.webp",
+          "large": "/portfolio/large/Kuliyapitiya/Residential Properties/Residential Property 01/kuliyapitiya-residential-properties-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kuliyapitiya/Residential Properties/Residential Property 01/kuliyapitiya-residential-properties-004.webp",
+          "large": "/portfolio/large/Kuliyapitiya/Residential Properties/Residential Property 01/kuliyapitiya-residential-properties-004.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kurunegala-banquet-hall-01",
+      "title": "Kurunegala Banquet Hall 01",
+      "city": "Kurunegala",
+      "province": "north-western",
+      "category": "Banquet Halls",
+      "projectGroup": "Banquet Hall 01",
+      "area": "9,300 sqft",
+      "description": "Banquet Hall 01 in Kurunegala, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 01/kurunegala-banquet-halls-001.webp",
+        "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 01/kurunegala-banquet-halls-001.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 01/kurunegala-banquet-halls-001.webp",
+          "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 01/kurunegala-banquet-halls-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 01/kurunegala-banquet-halls-002.webp",
+          "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 01/kurunegala-banquet-halls-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 01/kurunegala-banquet-halls-003.webp",
+          "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 01/kurunegala-banquet-halls-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kurunegala-banquet-hall-02",
+      "title": "Kurunegala Banquet Hall 02",
+      "city": "Kurunegala",
+      "province": "north-western",
+      "category": "Banquet Halls",
+      "projectGroup": "Banquet Hall 02",
+      "area": "9,050 sqft",
+      "description": "Banquet Hall 02 in Kurunegala, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 02/kurunegala-banquet-halls-004.webp",
+        "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 02/kurunegala-banquet-halls-004.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 02/kurunegala-banquet-halls-001.webp",
+          "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 02/kurunegala-banquet-halls-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 02/kurunegala-banquet-halls-002.webp",
+          "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 02/kurunegala-banquet-halls-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 02/kurunegala-banquet-halls-003.webp",
+          "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 02/kurunegala-banquet-halls-003.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 02/kurunegala-banquet-halls-004.webp",
+          "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 02/kurunegala-banquet-halls-004.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kurunegala-banquet-hall-03",
+      "title": "Kurunegala Banquet Hall 03",
+      "city": "Kurunegala",
+      "province": "north-western",
+      "category": "Banquet Halls",
+      "projectGroup": "Banquet Hall 03",
+      "area": "9,300 sqft",
+      "description": "Banquet Hall 03 in Kurunegala, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 03/kurunegala-banquet-halls-001.webp",
+        "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 03/kurunegala-banquet-halls-001.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 03/kurunegala-banquet-halls-001.webp",
+          "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 03/kurunegala-banquet-halls-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 03/kurunegala-banquet-halls-002.webp",
+          "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 03/kurunegala-banquet-halls-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Banquet Halls/Banquet Hall 03/kurunegala-banquet-halls-003.webp",
+          "large": "/portfolio/large/Kurunegala/Banquet Halls/Banquet Hall 03/kurunegala-banquet-halls-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kurunegala-residential-property-01",
+      "title": "Kurunegala Residential Property 01",
+      "city": "Kurunegala",
+      "province": "north-western",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 01",
+      "area": "11,550 sqft",
+      "description": "Residential Property 01 in Kurunegala, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kurunegala/Residential Properties/Residential Property 01/kurunegala-residential-properties-001.webp",
+        "large": "/portfolio/large/Kurunegala/Residential Properties/Residential Property 01/kurunegala-residential-properties-001.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Residential Properties/Residential Property 01/kurunegala-residential-properties-001.webp",
+          "large": "/portfolio/large/Kurunegala/Residential Properties/Residential Property 01/kurunegala-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Residential Properties/Residential Property 01/kurunegala-residential-properties-002.webp",
+          "large": "/portfolio/large/Kurunegala/Residential Properties/Residential Property 01/kurunegala-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Residential Properties/Residential Property 01/kurunegala-residential-properties-003.webp",
+          "large": "/portfolio/large/Kurunegala/Residential Properties/Residential Property 01/kurunegala-residential-properties-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kurunegala-residential-property-02",
+      "title": "Kurunegala Residential Property 02",
+      "city": "Kurunegala",
+      "province": "north-western",
+      "category": "Residential Properties",
+      "projectGroup": "Residential Property 02",
+      "area": "11,550 sqft",
+      "description": "Residential Property 02 in Kurunegala, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kurunegala/Residential Properties/Residential Property 02/kurunegala-residential-properties-002.webp",
+        "large": "/portfolio/large/Kurunegala/Residential Properties/Residential Property 02/kurunegala-residential-properties-002.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Residential Properties/Residential Property 02/kurunegala-residential-properties-001.webp",
+          "large": "/portfolio/large/Kurunegala/Residential Properties/Residential Property 02/kurunegala-residential-properties-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Residential Properties/Residential Property 02/kurunegala-residential-properties-002.webp",
+          "large": "/portfolio/large/Kurunegala/Residential Properties/Residential Property 02/kurunegala-residential-properties-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Residential Properties/Residential Property 02/kurunegala-residential-properties-003.webp",
+          "large": "/portfolio/large/Kurunegala/Residential Properties/Residential Property 02/kurunegala-residential-properties-003.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kurunegala-retail-interior-01",
+      "title": "Kurunegala Retail Interior 01",
+      "city": "Kurunegala",
+      "province": "north-western",
+      "category": "Retail Interiors",
+      "projectGroup": "Retail Interior 01",
+      "area": "5,050 sqft",
+      "description": "Retail Interior 01 in Kurunegala, presented as part of Royo's interior design and specialist finishing portfolio.",
+      "coverImage": {
+        "thumb": "/portfolio/thumb/Kurunegala/Retail Interiors/Retail Interior 01/kurunegala-retail-interiors-001.webp",
+        "large": "/portfolio/large/Kurunegala/Retail Interiors/Retail Interior 01/kurunegala-retail-interiors-001.webp"
+      },
+      "images": [
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Retail Interiors/Retail Interior 01/kurunegala-retail-interiors-001.webp",
+          "large": "/portfolio/large/Kurunegala/Retail Interiors/Retail Interior 01/kurunegala-retail-interiors-001.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Retail Interiors/Retail Interior 01/kurunegala-retail-interiors-002.webp",
+          "large": "/portfolio/large/Kurunegala/Retail Interiors/Retail Interior 01/kurunegala-retail-interiors-002.webp"
+        },
+        {
+          "thumb": "/portfolio/thumb/Kurunegala/Retail Interiors/Retail Interior 01/kurunegala-retail-interiors-003.webp",
+          "large": "/portfolio/large/Kurunegala/Retail Interiors/Retail Interior 01/kurunegala-retail-interiors-003.webp"
+        }
+      ]
+    }
+  ]
+}

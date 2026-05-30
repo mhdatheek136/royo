@@ -1,31 +1,41 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Project } from '@/data/projects'
+import type { PortfolioProject } from '@/data/portfolio'
 
 interface ProjectCardProps {
-  project: Project
+  project: PortfolioProject
   variant?: 'grid' | 'featured'
+  index?: number
 }
 
-export default function ProjectCard({ project, variant = 'grid' }: ProjectCardProps) {
+const gridHeights = ['h-72 md:h-80', 'h-96 md:h-[30rem]', 'h-80 md:h-96', 'h-[22rem] md:h-[26rem]']
+
+export default function ProjectCard({ project, variant = 'grid', index = 0 }: ProjectCardProps) {
+  const image = project.coverImage || project.images[0]
+  if (!image) return null
+
   if (variant === 'featured') {
     return (
-      <Link href={`/work/${project.slug}`}>
-        <div className="group cursor-pointer overflow-hidden rounded-lg">
-          <div className="relative h-64 md:h-80 overflow-hidden">
+      <Link href={`/work/${project.slug}`} className="group block">
+        <div className="overflow-hidden rounded-[2rem] bg-white shadow-sm border border-gray-100 transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl">
+          <div className="relative h-72 md:h-96 overflow-hidden">
             <Image
-              src={project.images[0]}
+              src={image.large}
               alt={project.title}
               fill
-              className="object-cover group-hover:scale-105 transition-transform duration-300"
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
-          <div className="p-6 bg-off-white">
-            <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-2">
+          <div className="p-6 md:p-8">
+            <p className="mb-3 text-[10px] font-bold uppercase tracking-[0.25em] text-shine-brown">
+              {project.category}
+            </p>
+            <h3 className="font-cormorant text-2xl md:text-3xl font-bold text-rock-black transition-colors group-hover:text-royo-burgundy">
               {project.title}
             </h3>
-            <p className="text-sm text-shine-brown uppercase tracking-wider">
-              {project.location}
+            <p className="mt-3 text-xs uppercase tracking-widest text-rock-black/55">
+              {project.city} / {project.area}
             </p>
           </div>
         </div>
@@ -34,22 +44,26 @@ export default function ProjectCard({ project, variant = 'grid' }: ProjectCardPr
   }
 
   return (
-    <Link href={`/work/${project.slug}`}>
-      <div className="group cursor-pointer">
-        <div className="relative aspect-[4/3] overflow-hidden rounded-[2.5rem] shadow-sm border border-gray-100">
+    <Link href={`/work/${project.slug}`} className="group mb-8 block break-inside-avoid">
+      <div className="overflow-hidden rounded-[1.75rem] bg-white shadow-sm border border-gray-100 transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl">
+        <div className={`relative overflow-hidden ${gridHeights[index % gridHeights.length]}`}>
           <Image
-            src={project.images[0]}
+            src={image.thumb}
             alt={project.title}
             fill
-            className="object-cover group-hover:scale-105 transition-all duration-500"
+            sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
           />
         </div>
-        <div className="mt-4">
-          <h3 className="font-cormorant text-xl font-bold text-rock-black group-hover:text-royo-burgundy transition-colors">
+        <div className="p-5">
+          <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-shine-brown">
+            {project.category}
+          </p>
+          <h3 className="mt-2 font-cormorant text-2xl font-bold text-rock-black transition-colors group-hover:text-royo-burgundy">
             {project.title}
           </h3>
-          <p className="text-sm text-shine-brown uppercase tracking-wider mt-1">
-            {project.location}
+          <p className="mt-2 text-xs uppercase tracking-widest text-rock-black/55">
+            {project.city} / {project.area}
           </p>
         </div>
       </div>

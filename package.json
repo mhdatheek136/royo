@@ -5,6 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "portfolio:sync": "node scripts/publish-portfolio.mjs",
+    "expertise:sync": "node scripts/publish-expertise.mjs",
+    "content:sync": "npm run portfolio:sync && npm run expertise:sync",
     "start": "next start",
     "lint": "eslint ."
   },

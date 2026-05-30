@@ -1,9 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Home, Lightbulb, Grid3X3, Brush } from 'lucide-react'
+import { ArrowRight, Brush } from 'lucide-react'
 import { AnimatedWatermark } from '@/components/ui/animated-watermark'
+import { expertiseAreas } from '@/data/expertise'
 
 export default function GypsumFeature() {
+  const additionalServices = expertiseAreas.filter(area => !area.isSignature)
+
   return (
     <section className="py-24 md:py-36 bg-off-white bg-gradient-to-t from-royo-burgundy/15 to-off-white relative overflow-hidden">
       {/* Right Watermark */}
@@ -53,46 +56,35 @@ export default function GypsumFeature() {
           </div>
         </div>
 
-        {/* Expertise Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Card 1 */}
-          <div className="bg-[#EAE5E0] p-10 rounded-2xl transition-all duration-300 hover:shadow-xl group">
-            <div className="mb-6 text-royo-burgundy">
-              <Home className="w-8 h-8 opacity-80" strokeWidth={1} />
-            </div>
-            <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-4">
-              Space Planning
-            </h3>
-            <p className="text-gray-500 text-xs md:text-sm leading-relaxed font-raleway">
-              Optimizing luxury through architectural flow and intentional placement.
-            </p>
-          </div>
+        <div className="mb-10 max-w-2xl">
+          <p className="mb-3 text-xs font-bold uppercase tracking-[0.24em] text-shine-brown">Additional Services</p>
+          <h3 className="font-cormorant text-3xl font-bold text-rock-black md:text-4xl">Craft expertise beyond gypsum moulding</h3>
+        </div>
 
-          {/* Card 2 */}
-          <div className="bg-[#EAE5E0] p-10 rounded-2xl transition-all duration-300 hover:shadow-xl group">
-            <div className="mb-6 text-royo-burgundy">
-              <Lightbulb className="w-8 h-8 opacity-80" strokeWidth={1} />
-            </div>
-            <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-4">
-              Lighting Design
-            </h3>
-            <p className="text-gray-500 text-xs md:text-sm leading-relaxed font-raleway">
-              Atmospheric layering that highlights texture, form, and architectural detail.
-            </p>
-          </div>
-
-          {/* Card 3 */}
-          <div className="bg-[#EAE5E0] p-10 rounded-2xl transition-all duration-300 hover:shadow-xl group">
-            <div className="mb-6 text-royo-burgundy">
-              <Grid3X3 className="w-8 h-8 opacity-80" strokeWidth={1} />
-            </div>
-            <h3 className="font-cormorant text-2xl font-bold text-rock-black mb-4">
-              Material Curation
-            </h3>
-            <p className="text-gray-500 text-xs md:text-sm leading-relaxed font-raleway">
-              Sourcing the finest marbles, timbers, and fabrics from around the globe.
-            </p>
-          </div>
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {additionalServices.map(service => (
+            <Link
+              key={service.slug}
+              href={`/expertise#${service.slug}`}
+              className="group overflow-hidden rounded-[1.5rem] border border-white/70 bg-white shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
+            >
+              <div className="relative h-52 overflow-hidden">
+                <Image
+                  src={service.coverImage.thumb}
+                  alt={service.title}
+                  fill
+                  sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </div>
+              <div className="flex items-center justify-between gap-4 p-5">
+                <h4 className="font-cormorant text-2xl font-bold leading-tight text-rock-black transition-colors group-hover:text-royo-burgundy">
+                  {service.title}
+                </h4>
+                <ArrowRight className="h-5 w-5 shrink-0 text-royo-burgundy transition-transform duration-300 group-hover:translate-x-1" />
+              </div>
+            </Link>
+          ))}
         </div>
       </div>
     </section>

@@ -5,11 +5,12 @@ import { notFound } from 'next/navigation'
 import { Home, Lightbulb, Grid3X3, MapPin } from 'lucide-react'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
-import ProjectCard from '@/components/sections/ProjectCard'
 import CTASection from '@/components/sections/CTASection'
+import CityPortfolioShowcase from '@/components/sections/CityPortfolioShowcase'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import MotionReveal from '@/components/ui/motion-reveal'
-import { locations, getLocationBySlug, getProjectsForLocationSlug } from '@/data/locations'
+import { locations, getLocationBySlug } from '@/data/locations'
+import { getPortfolioCityByName } from '@/data/portfolio'
 
 interface LocationPageProps {
   params: Promise<{ slug: string }>
@@ -50,15 +51,15 @@ export default async function LocationPage({ params }: LocationPageProps) {
     notFound()
   }
 
-  const matchingProjects = getProjectsForLocationSlug(slug)
-  const featuredProjects = matchingProjects.slice(0, 3)
+  const cityPortfolio = getPortfolioCityByName(location.cityName)
+  const heroImage = cityPortfolio?.coverImage?.large || cityPortfolio?.gallery[0]?.large || location.heroImage
 
   const locationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Royo',
     url: `https://www.royo.lk/locations/${location.slug}`,
-    image: location.heroImage,
+    image: heroImage,
     telephone: '+94 70 100 9991',
     email: 'info@royo.lk',
     address: {
@@ -82,7 +83,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
       <section className="relative">
         <div className="relative h-[70vh] min-h-[560px] overflow-hidden">
           <Image
-            src={location.heroImage}
+            src={heroImage}
             alt={location.heroAlt}
             fill
             priority
@@ -228,55 +229,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
         </div>
       </section>
 
-      {featuredProjects.length > 0 && (
-        <section className="py-20 md:py-28 bg-off-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="mb-16">
-              <p className="text-sm font-raleway uppercase tracking-widest text-shine-brown mb-4">
-                Local Project Proof
-              </p>
-              <h2 className="font-cormorant text-4xl md:text-5xl font-bold text-royo-burgundy mb-6">
-                Projects in {location.cityName}
-              </h2>
-              {featuredProjects.length === 1 ? (
-                <p className="text-lg text-rock-black opacity-80 max-w-3xl leading-relaxed">
-                  We currently feature one project in {location.cityName}, offering a clear view of how our gypsum detailing and interior direction translate into a finished local space.
-                </p>
-              ) : (
-                <p className="text-lg text-rock-black opacity-80 max-w-3xl leading-relaxed">
-                  These featured projects show how our work adapts to the pace, architecture, and expectations of clients in {location.cityName}.
-                </p>
-              )}
-            </div>
-
-            {featuredProjects.length === 1 ? (
-              <div className="grid grid-cols-1 lg:grid-cols-[1fr_0.9fr] gap-12 items-start">
-                <ProjectCard project={featuredProjects[0]} variant="featured" />
-                <div className="rounded-[2rem] bg-white p-10 border border-gray-100 shadow-sm">
-                  <p className="text-sm font-raleway uppercase tracking-widest text-shine-brown mb-4">
-                    Project Narrative
-                  </p>
-                  <h3 className="font-cormorant text-3xl font-bold text-rock-black mb-5">
-                    {featuredProjects[0].title}
-                  </h3>
-                  <p className="text-rock-black opacity-80 leading-relaxed mb-5">
-                    {featuredProjects[0].description}
-                  </p>
-                  <p className="text-rock-black opacity-75 leading-relaxed">
-                    {featuredProjects[0].narrative}
-                  </p>
-                </div>
-              </div>
-            ) : (
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-                {featuredProjects.map((project) => (
-                  <ProjectCard key={project.id} project={project} />
-                ))}
-              </div>
-            )}
-          </div>
-        </section>
-      )}
+      <CityPortfolioShowcase cityName={location.cityName} />
 
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

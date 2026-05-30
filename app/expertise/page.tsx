@@ -4,17 +4,22 @@ import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
 import CTASection from '@/components/sections/CTASection'
 import LocationGrid from '@/components/sections/LocationGrid'
+import PortfolioGallery from '@/components/sections/PortfolioGallery'
+import { expertiseAreas } from '@/data/expertise'
 
 export const metadata = {
   title: 'Expertise - ROYO Interior Design',
-  description: 'Discover our core expertise in luxury interior design, gypsum moulding, space planning, lighting design, and material curation.',
+  description: 'Discover ROYO expertise in gypsum works, ceiling works, wall finishes, pantry interiors, roofing, and metal welding across Sri Lanka.',
 }
 
-import { Home, Lightbulb, Grid3X3, Brush, History, UserCheck, Globe, Infinity } from 'lucide-react'
+import { ArrowRight, History, UserCheck, Globe, Infinity } from 'lucide-react'
 
 import { BackgroundPaths } from '@/components/ui/background-paths'
 
 export default function ExpertisePage() {
+  const signatureService = expertiseAreas.find(area => area.isSignature)
+  const additionalServices = expertiseAreas.filter(area => !area.isSignature)
+
   return (
     <div className="min-h-screen bg-off-white">
       <Header />
@@ -51,7 +56,7 @@ export default function ExpertisePage() {
                 className="group inline-flex items-center gap-4 text-royo-burgundy font-raleway font-bold uppercase tracking-widest text-xs hover:gap-6 transition-all duration-300"
               >
                 <span>Explore the Craft</span>
-                <span className="text-lg">→</span>
+                <span className="text-lg">-&gt;</span>
               </Link>
             </div>
 
@@ -74,54 +79,73 @@ export default function ExpertisePage() {
         </div>
       </section>
 
-      {/* Core Disciplines Section */}
+      {/* Service Navigation Section */}
       <section className="py-24 md:py-36 bg-off-white bg-gradient-to-b from-white to-off-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.3em] text-shine-brown">Built Expertise</p>
             <h2 className="font-cormorant text-4xl md:text-5xl lg:text-6xl font-bold text-royo-burgundy">
-              Core Disciplines
+              Specialist Services
             </h2>
+            <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-rock-black/70 md:text-lg">
+              Explore the practical craft areas behind our completed interiors, from signature gypsum work to pantry detailing and structural metal fabrication.
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Discipline 1: Space Planning */}
-            <div className="bg-[#EAE5E0] p-12 rounded-2xl transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 group">
-              <div className="mb-8 text-royo-burgundy group-hover:scale-110 transition-transform duration-300">
-                <Home className="w-10 h-10 opacity-80" strokeWidth={1} />
-              </div>
-              <h3 className="font-cormorant text-2xl lg:text-3xl font-bold text-rock-black mb-6">
-                Space Planning
-              </h3>
-              <p className="text-gray-600 font-raleway leading-relaxed text-sm md:text-base">
-                A rigorous focus on flow, architectural volume, and intentional placement. We treat every room as a canvas, balancing functionality with an ethereal movement through space.
-              </p>
-            </div>
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {additionalServices.map(service => (
+              <Link
+                key={service.slug}
+                href={`#${service.slug}`}
+                className="group overflow-hidden rounded-[1.75rem] border border-gray-100 bg-white shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
+              >
+                <div className="relative h-64 overflow-hidden">
+                  <Image
+                    src={service.coverImage.thumb}
+                    alt={service.title}
+                    fill
+                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                <div className="flex items-center justify-between gap-4 p-6">
+                  <h3 className="font-cormorant text-2xl font-bold leading-tight text-rock-black group-hover:text-royo-burgundy">
+                    {service.title}
+                  </h3>
+                  <ArrowRight className="h-5 w-5 shrink-0 text-royo-burgundy transition-transform duration-300 group-hover:translate-x-1" />
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
-            {/* Discipline 2: Lighting Design */}
-            <div className="bg-[#EAE5E0] p-12 rounded-2xl transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 group">
-              <div className="mb-8 text-royo-burgundy group-hover:scale-110 transition-transform duration-300">
-                <Lightbulb className="w-10 h-10 opacity-80" strokeWidth={1} />
-              </div>
-              <h3 className="font-cormorant text-2xl lg:text-3xl font-bold text-rock-black mb-4">
-                Lighting Design
-              </h3>
-              <p className="text-gray-600 font-raleway leading-relaxed text-sm md:text-base">
-                Atmospheric layering that defines texture and form. Our lighting strategies are calculated to evoke emotion, highlighting architectural features while maintaining intimate warmth.
-              </p>
-            </div>
+      <section className="bg-white py-24 md:py-36">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-20 max-w-3xl">
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.3em] text-shine-brown">Completed Craft</p>
+            <h2 className="font-cormorant text-4xl font-bold text-royo-burgundy md:text-6xl">Real work, presented with clarity</h2>
+            <p className="mt-6 text-lg leading-relaxed text-rock-black/75">
+              Browse a selection of completed work across our signature gypsum craft and additional specialist services. Open any image for a closer look.
+            </p>
+          </div>
 
-            {/* Discipline 3: Material Curation */}
-            <div className="bg-[#EAE5E0] p-12 rounded-2xl transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 group">
-              <div className="mb-8 text-royo-burgundy group-hover:scale-110 transition-transform duration-300">
-                <Grid3X3 className="w-10 h-10 opacity-80" strokeWidth={1} />
-              </div>
-              <h3 className="font-cormorant text-2xl lg:text-3xl font-bold text-rock-black mb-4">
-                Material Curation
-              </h3>
-              <p className="text-gray-600 font-raleway leading-relaxed text-sm md:text-base">
-                Ethical sourcing of rare materials, luxury textiles and hand-woven finishes. We select materials that age gracefully, creating tactile narratives of luxury and permanence.
-              </p>
-            </div>
+          <div className="space-y-24">
+            {signatureService && (
+              <section id={signatureService.slug} className="scroll-mt-24">
+                <p className="mb-3 text-xs font-bold uppercase tracking-[0.26em] text-shine-brown">Signature Expertise</p>
+                <p className="mb-10 max-w-3xl leading-relaxed text-rock-black/70">{signatureService.description}</p>
+                <PortfolioGallery images={signatureService.images} title={signatureService.title} initialLimit={9} />
+              </section>
+            )}
+
+            {additionalServices.map(service => (
+              <section key={service.slug} id={service.slug} className="scroll-mt-24 border-t border-royo-burgundy/10 pt-16">
+                <p className="mb-3 text-xs font-bold uppercase tracking-[0.26em] text-shine-brown">Specialist Service</p>
+                <p className="mb-10 max-w-3xl leading-relaxed text-rock-black/70">{service.description}</p>
+                <PortfolioGallery images={service.images} title={service.title} initialLimit={6} />
+              </section>
+            ))}
           </div>
         </div>
       </section>

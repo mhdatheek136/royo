@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Province, provinces } from '@/data/provinces'
 import { provincePaths } from '@/data/provincePaths'
-import { getProjectsByProvince } from '@/data/projects'
+import { getPortfolioProjectsByProvince } from '@/data/portfolio'
 import { X, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import { Counter } from '@/components/ui/counter'
@@ -53,7 +53,7 @@ export default function InteractiveMap({ showProjects = false }: InteractiveMapP
     setSelectedProvince(province)
   }
 
-  const selectedProjects = selectedProvince ? getProjectsByProvince(selectedProvince) : []
+  const selectedProjects = selectedProvince ? getPortfolioProjectsByProvince(selectedProvince) : []
   const firstProject = selectedProjects[0]
 
   return (
@@ -76,7 +76,7 @@ export default function InteractiveMap({ showProjects = false }: InteractiveMapP
 
               {/* Sri Lanka provinces as clickable regions */}
               {provinces.map((province) => {
-                const projects = getProjectsByProvince(province.id)
+                const projects = getPortfolioProjectsByProvince(province.id)
                 const hasProjects = projects.length > 0
                 const isSelected = selectedProvince === province.id
 
@@ -141,7 +141,7 @@ export default function InteractiveMap({ showProjects = false }: InteractiveMapP
                     <div className="relative w-full aspect-[4/3] mb-4 rounded-lg overflow-hidden bg-gray-100">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src={firstProject.images[0]}
+                        src={(firstProject.coverImage || firstProject.images[0]).thumb}
                         alt={firstProject.title}
                         className="w-full h-full object-cover"
                       />
