@@ -8,9 +8,9 @@ import CTASection from '@/components/sections/CTASection'
 import { createPageMetadata } from '@/lib/seo'
 
 export const metadata = createPageMetadata({
-  title: 'ROYO | Interior Design and Gypsum Moulding Sri Lanka',
+  title: 'ROYO - Gypsum and Interior Design Sri Lanka',
   description:
-    'Explore gypsum moulding, interior design, ceiling works, pantry interiors, wall finishes, roofing, and metal welding services by ROYO across Sri Lanka.',
+    'ROYO provides gypsum moulding and interior design services across Sri Lanka, with crafted ceiling works, wall finishes, pantry interiors, roofing, and metal welding.',
   path: '/',
 })
 
