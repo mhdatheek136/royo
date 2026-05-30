@@ -25,9 +25,9 @@ export const locations: LocationContent[] = [
     provinceName: 'North Western Province',
     heroImage: '/locations/kurunegala.jpg',
     heroAlt: 'A breathtaking scenic view of Elephant Rock and Kurunegala Lake',
-    intro: 'Royo delivers gypsum moulding and interior design services in Kurunegala with a focus on calm luxury, durable detailing, and spaces that feel considered from first impression to final finish.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Kurunegala | Royo',
-    seoDescription: 'Discover gypsum moulding and interior design services in Kurunegala by Royo, with bespoke detailing, refined interiors, and locally grounded project experience.',
+    intro: 'ROYO delivers gypsum moulding and interior design services in Kurunegala with a focus on calm luxury, durable detailing, and spaces that feel considered from first impression to final finish.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Kurunegala | ROYO',
+    seoDescription: 'Discover gypsum moulding and interior design services in Kurunegala by ROYO, with bespoke detailing, refined interiors, and locally grounded project experience.',
     faq: [
       {
         question: 'Do you offer gypsum moulding in Kurunegala?',
@@ -51,8 +51,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/colombo.jpg',
     heroAlt: 'A stunning aesthetic view of the Colombo city skyline and Lotus Tower',
     intro: 'In Colombo, our work balances modern city living with carefully crafted gypsum moulding, premium materials, and interiors designed to feel polished, functional, and quietly distinctive.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Colombo | Royo',
-    seoDescription: 'Explore gypsum moulding and interior design services in Colombo by Royo, from refined urban interiors to bespoke architectural detailing.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Colombo | ROYO',
+    seoDescription: 'Explore gypsum moulding and interior design services in Colombo by ROYO, from refined urban interiors to bespoke architectural detailing.',
     faq: [
       {
         question: 'Do you provide interior design services in Colombo?',
@@ -76,8 +76,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/kandy.jpg',
     heroAlt: 'A majestic view of the Temple of the Sacred Tooth Relic and Kandy Lake',
     intro: 'Our Kandy projects pair gypsum craftsmanship with interiors that feel grounded, warm, and aligned with the city’s layered cultural and architectural character.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Kandy | Royo',
-    seoDescription: 'Royo offers gypsum moulding and interior design services in Kandy for hospitality, residential, and lifestyle-led spaces.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Kandy | ROYO',
+    seoDescription: 'ROYO offers gypsum moulding and interior design services in Kandy for hospitality, residential, and lifestyle-led spaces.',
     faq: [
       {
         question: 'Do you work on hotels and hospitality interiors in Kandy?',
@@ -101,8 +101,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/galle.jpg',
     heroAlt: 'A beautiful coastal aesthetic of the historic Galle Fort and lighthouse',
     intro: 'In Galle, our interiors are shaped by heritage, texture, and coastal light, bringing together gypsum detailing and elegant material decisions that suit both classic and contemporary spaces.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Galle | Royo',
-    seoDescription: 'Discover gypsum moulding and interior design services in Galle by Royo, crafted for refined coastal homes and hospitality spaces.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Galle | ROYO',
+    seoDescription: 'Discover gypsum moulding and interior design services in Galle by ROYO, crafted for refined coastal homes and hospitality spaces.',
     faq: [
       {
         question: 'Do you offer gypsum moulding in Galle for heritage-style homes?',
@@ -122,8 +122,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/jaffna.jpg',
     heroAlt: 'A stunning aesthetic shot of the ornate Nallur Kandaswamy Kovil temple',
     intro: 'Our design direction in Jaffna brings together functional planning, selective ornamentation, and a clear visual identity, whether the project leans commercial, hospitality-focused, or quietly residential.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Jaffna | Royo',
-    seoDescription: 'Royo provides gypsum moulding and interior design services in Jaffna with a focus on refined spatial planning and thoughtful detailing.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Jaffna | ROYO',
+    seoDescription: 'ROYO provides gypsum moulding and interior design services in Jaffna with a focus on refined spatial planning and thoughtful detailing.',
     faq: [
       {
         question: 'Do you handle commercial interiors in Jaffna?',
@@ -143,8 +143,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/nuwara-eliya.jpg',
     heroAlt: 'A breathtaking misty landscape and tea plantations in Nuwara Eliya',
     intro: 'For Nuwara Eliya, our approach emphasizes layered comfort, classic composition, and gypsum detailing that feels appropriate to cool-climate luxury and elevated retreat-style living.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Nuwara Eliya | Royo',
-    seoDescription: 'Explore gypsum moulding and interior design services in Nuwara Eliya by Royo, designed for refined mountain residences and hospitality spaces.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Nuwara Eliya | ROYO',
+    seoDescription: 'Explore gypsum moulding and interior design services in Nuwara Eliya by ROYO, designed for refined mountain residences and hospitality spaces.',
     faq: [
       {
         question: 'Do you design interiors for hotels and retreats in Nuwara Eliya?',
@@ -164,8 +164,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/sigiriya.jpg',
     heroAlt: 'A majestic aesthetic view of the ancient Sigiriya Rock Fortress',
     intro: 'In Sigiriya, our interiors are developed to feel calm, open, and responsive to the surrounding landscape, with gypsum detailing used to frame rather than overpower the architecture.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Sigiriya | Royo',
-    seoDescription: 'Royo offers gypsum moulding and interior design services in Sigiriya for villas, residences, and spaces shaped by the surrounding landscape.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Sigiriya | ROYO',
+    seoDescription: 'ROYO offers gypsum moulding and interior design services in Sigiriya for villas, residences, and spaces shaped by the surrounding landscape.',
     faq: [
       {
         question: 'Can you design interiors that suit villa projects in Sigiriya?',
@@ -185,8 +185,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/batticaloa.jpg',
     heroAlt: 'A serene coastal aesthetic of the Batticaloa Lagoon and historic fort',
     intro: 'Our Batticaloa direction favors openness, coastal ease, and interiors that feel bright and composed, with gypsum and finish selections tailored to that atmosphere.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Batticaloa | Royo',
-    seoDescription: 'Discover interior design and gypsum moulding services in Batticaloa by Royo, tailored to relaxed coastal environments and refined residential spaces.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Batticaloa | ROYO',
+    seoDescription: 'Discover interior design and gypsum moulding services in Batticaloa by ROYO, tailored to relaxed coastal environments and refined residential spaces.',
     faq: [
       {
         question: 'Do you offer interior design services in Batticaloa?',
@@ -206,8 +206,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/anuradhapura.jpg',
     heroAlt: 'A majestic aesthetic shot of the ancient Ruwanwelisaya white stupa',
     intro: 'In Anuradhapura, our work can draw from cultural resonance and clarity of form, balancing respectful material choices with gypsum detailing that feels deliberate and contemporary.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Anuradhapura | Royo',
-    seoDescription: 'Royo provides gypsum moulding and interior design services in Anuradhapura with a focus on thoughtful detailing and culturally grounded spaces.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Anuradhapura | ROYO',
+    seoDescription: 'ROYO provides gypsum moulding and interior design services in Anuradhapura with a focus on thoughtful detailing and culturally grounded spaces.',
     faq: [
       {
         question: 'Do you work on cultural and commercial projects in Anuradhapura?',
@@ -227,8 +227,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/matara.jpg',
     heroAlt: 'A beautiful coastal view of the Paravi Duwa Temple in Matara',
     intro: 'Our Matara interiors are shaped for warmth, scale, and timeless presence, pairing gypsum moulding with material palettes that support both family life and premium visual impact.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Matara | Royo',
-    seoDescription: 'Explore gypsum moulding and interior design services in Matara by Royo, created for refined southern residences and elegant lifestyle spaces.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Matara | ROYO',
+    seoDescription: 'Explore gypsum moulding and interior design services in Matara by ROYO, created for refined southern residences and elegant lifestyle spaces.',
     faq: [
       {
         question: 'Do you offer gypsum moulding for large homes in Matara?',
@@ -248,8 +248,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/ratnapura.jpg',
     heroAlt: 'A stunning aesthetic view of lush mountain landscapes in Ratnapura',
     intro: 'In Ratnapura, our interior approach balances professionalism, polish, and material richness, creating spaces that feel composed and high value without becoming overstated.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Ratnapura | Royo',
-    seoDescription: 'Royo offers gypsum moulding and interior design services in Ratnapura for offices, residences, and spaces that call for refined finish quality.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Ratnapura | ROYO',
+    seoDescription: 'ROYO offers gypsum moulding and interior design services in Ratnapura for offices, residences, and spaces that call for refined finish quality.',
     faq: [
       {
         question: 'Do you handle office interiors in Ratnapura?',
@@ -269,8 +269,8 @@ export const locations: LocationContent[] = [
     heroImage: '/locations/badulla.jpg',
     heroAlt: 'A breathtaking scenic view of the iconic Nine Arch Bridge in Badulla',
     intro: 'Our Badulla direction focuses on calm, rooted interiors with a sense of place, where gypsum moulding and crafted finishes help add character without losing restraint.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Badulla | Royo',
-    seoDescription: 'Discover gypsum moulding and interior design services in Badulla by Royo for heritage-aware, carefully detailed spaces.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Badulla | ROYO',
+    seoDescription: 'Discover gypsum moulding and interior design services in Badulla by ROYO for heritage-aware, carefully detailed spaces.',
     faq: [
       {
         question: 'Do you offer gypsum moulding in Badulla?',
@@ -288,10 +288,10 @@ export const locations: LocationContent[] = [
     cityName: 'Ampara',
     provinceName: 'Eastern Province',
     heroImage: '/portfolio/large/Ampara/ampara-001.webp',
-    heroAlt: 'Completed interior work by Royo in Ampara',
+    heroAlt: 'Completed interior work by ROYO in Ampara',
     intro: 'Our Ampara portfolio brings together practical planning and carefully finished interiors, with gypsum detailing used to give each space a composed architectural presence.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Ampara | Royo',
-    seoDescription: 'Explore completed gypsum moulding and interior design work in Ampara by Royo.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Ampara | ROYO',
+    seoDescription: 'Explore completed gypsum moulding and interior design work in Ampara by ROYO.',
     faq: [
       {
         question: 'Do you offer gypsum moulding and interior design in Ampara?',
@@ -308,10 +308,10 @@ export const locations: LocationContent[] = [
     cityName: 'Kegalle',
     provinceName: 'Sabaragamuwa Province',
     heroImage: '/portfolio/large/Kegalle/kegalle-001.webp',
-    heroAlt: 'Completed interior work by Royo in Kegalle',
+    heroAlt: 'Completed interior work by ROYO in Kegalle',
     intro: 'In Kegalle, our work focuses on durable interior finishes, calm composition, and gypsum detailing that adds character without overpowering the space.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Kegalle | Royo',
-    seoDescription: 'Explore completed gypsum moulding and interior design work in Kegalle by Royo.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Kegalle | ROYO',
+    seoDescription: 'Explore completed gypsum moulding and interior design work in Kegalle by ROYO.',
     faq: [
       {
         question: 'Do you take on residential interiors in Kegalle?',
@@ -328,10 +328,10 @@ export const locations: LocationContent[] = [
     cityName: 'Kilinochchi',
     provinceName: 'Northern Province',
     heroImage: '/portfolio/large/Kilinochchi/kilinochchi-001.webp',
-    heroAlt: 'Completed interior work by Royo in Kilinochchi',
+    heroAlt: 'Completed interior work by ROYO in Kilinochchi',
     intro: 'Our Kilinochchi projects pair clean spatial planning with confident finish choices, creating interiors that feel considered, functional, and visually clear.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Kilinochchi | Royo',
-    seoDescription: 'Explore completed gypsum moulding and interior design work in Kilinochchi by Royo.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Kilinochchi | ROYO',
+    seoDescription: 'Explore completed gypsum moulding and interior design work in Kilinochchi by ROYO.',
     faq: [
       {
         question: 'Do you provide interior work in Kilinochchi?',
@@ -348,10 +348,10 @@ export const locations: LocationContent[] = [
     cityName: 'Kuliyapitiya',
     provinceName: 'North Western Province',
     heroImage: '/portfolio/large/Kuliyapitiya/kuliyapitiya-001.webp',
-    heroAlt: 'Completed interior work by Royo in Kuliyapitiya',
+    heroAlt: 'Completed interior work by ROYO in Kuliyapitiya',
     intro: 'Our Kuliyapitiya portfolio reflects a practical, finish-conscious approach to interiors, with tailored gypsum details and a strong focus on how each room is experienced.',
-    seoTitle: 'Gypsum Moulding and Interior Design in Kuliyapitiya | Royo',
-    seoDescription: 'Explore completed gypsum moulding and interior design work in Kuliyapitiya by Royo.',
+    seoTitle: 'Gypsum Moulding and Interior Design in Kuliyapitiya | ROYO',
+    seoDescription: 'Explore completed gypsum moulding and interior design work in Kuliyapitiya by ROYO.',
     faq: [
       {
         question: 'Do you offer gypsum moulding in Kuliyapitiya?',

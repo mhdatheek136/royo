@@ -3,9 +3,9 @@ import Footer from '@/components/common/Footer'
 import { createPageMetadata } from '@/lib/seo'
 
 export const metadata = createPageMetadata({
-  title: 'Terms of Service | Royo',
+  title: 'Terms of Service | ROYO',
   description:
-    'Review the website terms governing the use of Royo content, inquiries, and general service information.',
+    'Review the website terms governing the use of ROYO content, inquiries, and general service information.',
   path: '/terms-of-service',
 })
 
@@ -25,7 +25,7 @@ export default function TermsOfServicePage() {
                 Terms of Service
               </h1>
               <p className="mt-4 max-w-3xl font-raleway text-sm leading-7 text-white/80 sm:text-base">
-                These terms explain the general rules for using the Royo website and engaging
+                These terms explain the general rules for using the ROYO website and engaging
                 with the information, content, and inquiry tools provided through it.
               </p>
               <p className="mt-5 font-raleway text-sm text-white/65">Last updated: May 30, 2026</p>
@@ -36,7 +36,7 @@ export default function TermsOfServicePage() {
                 <section className="space-y-3">
                   <h2 className="font-cormorant text-3xl">Website Use</h2>
                   <p className="font-raleway text-sm leading-7 opacity-80 sm:text-base">
-                    This website is intended to provide information about Royo, our design
+                    This website is intended to provide information about ROYO, our design
                     direction, and the services we offer. By using this website, you agree to use
                     it lawfully and in a way that does not interfere with its normal operation.
                   </p>
@@ -56,7 +56,7 @@ export default function TermsOfServicePage() {
                   <h2 className="font-cormorant text-3xl">Intellectual Property</h2>
                   <p className="font-raleway text-sm leading-7 opacity-80 sm:text-base">
                     The website design, branding, written content, and original project materials
-                    shown on this site belong to Royo unless otherwise stated. They may not be
+                    shown on this site belong to ROYO unless otherwise stated. They may not be
                     copied, reused, or redistributed without prior written permission.
                   </p>
                 </section>
@@ -93,7 +93,7 @@ export default function TermsOfServicePage() {
                   <p className="font-raleway text-sm leading-7 opacity-80 sm:text-base">
                     We aim to keep the website accurate and available, but we do not guarantee
                     that it will always be uninterrupted, error-free, or fully up to date. To the
-                    extent permitted by law, Royo is not liable for indirect or incidental losses
+                    extent permitted by law, ROYO is not liable for indirect or incidental losses
                     arising from use of the website.
                   </p>
                 </section>
@@ -116,7 +116,7 @@ export default function TermsOfServicePage() {
                     Need clarification?
                   </h2>
                   <p className="mt-3 font-raleway text-sm leading-7 text-rock-black/75">
-                    For questions about these terms or our website information, contact the Royo
+                    For questions about these terms or our website information, contact the ROYO
                     team directly.
                   </p>
                 </div>

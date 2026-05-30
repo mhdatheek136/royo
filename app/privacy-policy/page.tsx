@@ -3,9 +3,9 @@ import Footer from '@/components/common/Footer'
 import { createPageMetadata } from '@/lib/seo'
 
 export const metadata = createPageMetadata({
-  title: 'Privacy Policy | Royo',
+  title: 'Privacy Policy | ROYO',
   description:
-    'Read how Royo collects, uses, and protects information shared through our website and contact forms.',
+    'Read how ROYO collects, uses, and protects information shared through our website and contact forms.',
   path: '/privacy-policy',
 })
 
@@ -25,7 +25,7 @@ export default function PrivacyPolicyPage() {
                 Privacy Policy
               </h1>
               <p className="mt-4 max-w-3xl font-raleway text-sm leading-7 text-white/80 sm:text-base">
-                This policy explains what information we collect through the Royo website, how
+                This policy explains what information we collect through the ROYO website, how
                 we use it, and how we protect it when you contact us about gypsum moulding,
                 interior design, or related services across Sri Lanka.
               </p>

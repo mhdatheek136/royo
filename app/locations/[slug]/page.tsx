@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
 
   if (!location) {
     return {
-      title: 'Location Not Found | Royo',
+      title: 'Location Not Found | ROYO',
     }
   }
 

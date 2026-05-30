@@ -9,8 +9,8 @@ import { AnimatedWatermark } from '@/components/ui/animated-watermark'
 import { createPageMetadata } from '@/lib/seo'
 
 export const metadata = createPageMetadata({
-  title: 'Contact Royo Gypsum in Kurunegala',
-  description: 'Get in touch with Royo Gypsum in Kurunegala for molding and interior design inquiries.',
+  title: 'Contact ROYO in Kurunegala',
+  description: 'Get in touch with ROYO in Kurunegala for gypsum moulding and interior design inquiries.',
   path: '/contact',
 })
 
@@ -125,7 +125,7 @@ export default function ContactPage() {
                 <div className="relative aspect-square overflow-hidden rounded-2xl shadow-xl border border-gray-100">
                   <Image
                     src="https://images.unsplash.com/photo-1620619767323-b95a89183081?w=1200&h=1200&fit=crop"
-                    alt="Royo Gypsum"
+                    alt="ROYO interior design office"
                     fill
                     className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
                   />

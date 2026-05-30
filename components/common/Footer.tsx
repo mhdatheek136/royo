@@ -18,7 +18,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-sm text-rock-black opacity-70">
-              Royo Gypsum. Molding and interior design across Sri Lanka.
+              ROYO. Gypsum moulding and interior design across Sri Lanka.
             </p>
             <div className="mt-4 space-y-2 text-sm text-rock-black opacity-80">
               <a href="mailto:info@royo.lk" className="block hover:text-royo-burgundy transition-colors">
@@ -85,7 +85,7 @@ export default function Footer() {
 
         <div className="border-t border-border pt-8">
           <p className="text-center text-sm text-rock-black opacity-70">
-            Copyright {currentYear} Royo. All rights reserved.
+            Copyright {currentYear} ROYO. All rights reserved.
           </p>
         </div>
       </div>

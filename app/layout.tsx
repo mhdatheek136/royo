@@ -21,15 +21,15 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'Royo Gypsum | Interior Design and Gypsum Moulding Sri Lanka',
-    template: '%s | Royo',
+    default: 'ROYO | Interior Design and Gypsum Moulding Sri Lanka',
+    template: '%s | ROYO',
   },
   description: siteConfig.description,
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Royo Gypsum | Interior Design and Gypsum Moulding Sri Lanka',
+    title: 'ROYO | Interior Design and Gypsum Moulding Sri Lanka',
     description: siteConfig.description,
     url: '/',
     siteName: siteConfig.name,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Royo Gypsum | Interior Design and Gypsum Moulding Sri Lanka',
+    title: 'ROYO | Interior Design and Gypsum Moulding Sri Lanka',
     description: siteConfig.description,
     images: ['/gypsum-feature.jpg'],
   },

@@ -130,7 +130,7 @@ function stableArea(slug) {
 
 function descriptionFor(city, category, projectGroup) {
   const subject = projectGroup || category
-  return `${subject} in ${city}, presented as part of Royo's interior design and specialist finishing portfolio.`
+  return `${subject} in ${city}, presented as part of ROYO's interior design and specialist finishing portfolio.`
 }
 
 function createProject(city, category, projectGroup, relativeImages) {

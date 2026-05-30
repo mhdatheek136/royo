@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const siteConfig = {
-  name: 'Royo',
-  legalName: 'Royo Gypsum',
+  name: 'ROYO',
+  legalName: 'ROYO',
   url: 'https://www.royo.lk',
   description:
     'Gypsum moulding, interior design, ceiling works, wall finishes, pantry interiors, roofing, and metal welding services across Sri Lanka.',
@@ -32,7 +32,7 @@ export function createPageMetadata({
   path,
   image = '/gypsum-feature.jpg',
 }: PageMetadataOptions): Metadata {
-  const brandedTitle = title.toLowerCase().includes('royo') ? title : `${title} | Royo`
+  const brandedTitle = title.toLowerCase().includes('royo') ? title : `${title} | ROYO`
 
   return {
     title: {

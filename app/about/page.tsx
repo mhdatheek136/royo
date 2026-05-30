@@ -6,8 +6,8 @@ import CTASection from '@/components/sections/CTASection'
 import { createPageMetadata } from '@/lib/seo'
 
 export const metadata = createPageMetadata({
-  title: 'About Royo Gypsum',
-  description: 'Learn about Royo Gypsum, our philosophy, values, and design approach in Sri Lanka.',
+  title: 'About ROYO',
+  description: 'Learn about ROYO, our philosophy, values, and design approach in Sri Lanka.',
   path: '/about',
 })
 
@@ -36,7 +36,7 @@ export default function AboutPage() {
 
           <div className="max-w-4xl mx-auto space-y-8 mb-24">
             <p className="text-base md:text-lg text-rock-black opacity-80 leading-relaxed font-raleway">
-              ROYO Interior Designs is committed to blending Sri Lankan heritage with modern architectural precision. Our narrative is one of elegance, minimal aesthetics, and a deep understanding of the soul within every space.
+              ROYO is committed to blending Sri Lankan heritage with modern architectural precision. Our narrative is one of elegance, minimal aesthetics, and a deep understanding of the soul within every space.
             </p>
             <p className="text-base md:text-lg text-rock-black opacity-80 leading-relaxed font-raleway">
               We believe that luxury is not just an aesthetic, but a feeling—a harmony between the built environment and the natural spirit of its location. By integrating local craftsmanship with global design standards, we create sanctuaries that transcend time.
