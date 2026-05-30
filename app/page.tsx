@@ -5,6 +5,14 @@ import FeaturedProjects from '@/components/sections/FeaturedProjects'
 import GypsumFeature from '@/components/sections/GypsumFeature'
 import InteractiveMap from '@/components/sections/InteractiveMap'
 import CTASection from '@/components/sections/CTASection'
+import { createPageMetadata } from '@/lib/seo'
+
+export const metadata = createPageMetadata({
+  title: 'Royo Gypsum | Interior Design and Gypsum Moulding Sri Lanka',
+  description:
+    'Explore gypsum moulding, interior design, ceiling works, pantry interiors, wall finishes, roofing, and metal welding services by Royo across Sri Lanka.',
+  path: '/',
+})
 
 export default function Home() {
   return (

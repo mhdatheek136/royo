@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import Image from 'next/image'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
@@ -11,6 +12,7 @@ import {
   portfolioProjects,
 } from '@/data/portfolio'
 import { notFound } from 'next/navigation'
+import { absoluteUrl, createPageMetadata, siteConfig } from '@/lib/seo'
 
 interface ProjectDetailPageProps {
   params: Promise<{ slug: string }>
@@ -20,16 +22,83 @@ export async function generateStaticParams() {
   return portfolioProjects.map(project => ({ slug: project.slug }))
 }
 
+export async function generateMetadata({ params }: ProjectDetailPageProps): Promise<Metadata> {
+  const { slug } = await params
+  const project = getPortfolioProjectBySlug(slug)
+
+  if (!project) {
+    return {
+      title: 'Project Not Found',
+    }
+  }
+
+  return createPageMetadata({
+    title: `${project.title} Interior Project`,
+    description: project.description,
+    path: `/work/${project.slug}`,
+    image: (project.coverImage || project.images[0]).large,
+  })
+}
+
 export default async function ProjectDetailPage({ params }: ProjectDetailPageProps) {
   const { slug } = await params
   const project = getPortfolioProjectBySlug(slug)
   if (!project || project.images.length === 0) notFound()
 
   const relatedProjects = getRelatedPortfolioProjects(slug, 3)
+  const projectSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CreativeWork',
+    name: project.title,
+    url: absoluteUrl(`/work/${project.slug}`),
+    image: project.images.map(image => absoluteUrl(image.large)),
+    description: project.description,
+    creator: {
+      '@id': `${siteConfig.url}/#business`,
+    },
+    contentLocation: {
+      '@type': 'City',
+      name: project.city,
+    },
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: siteConfig.url,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Work',
+        item: absoluteUrl('/work'),
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: project.title,
+        item: absoluteUrl(`/work/${project.slug}`),
+      },
+    ],
+  }
 
   return (
     <div className="min-h-screen bg-off-white">
       <Header />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
 
       <section className="relative">
         <div className="relative h-[72vh] min-h-[560px] overflow-hidden">

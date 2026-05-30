@@ -4,11 +4,13 @@ import Hero from '@/components/sections/Hero'
 import ProjectGrid from '@/components/sections/ProjectGrid'
 import InteractiveMap from '@/components/sections/InteractiveMap'
 import CTASection from '@/components/sections/CTASection'
+import { createPageMetadata } from '@/lib/seo'
 
-export const metadata = {
-  title: 'Work - ROYO Interior Design',
+export const metadata = createPageMetadata({
+  title: 'Interior Design and Gypsum Project Portfolio',
   description: 'Explore our portfolio of luxury interior design projects across Sri Lanka. Residential and commercial projects showcasing our expertise in gypsum moulding and interior design.',
-}
+  path: '/work',
+})
 
 import { TextAnimate } from '@/components/ui/text-animate'
 

@@ -3,11 +3,13 @@ import { AnimatedWatermark } from '@/components/ui/animated-watermark'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
 import CTASection from '@/components/sections/CTASection'
+import { createPageMetadata } from '@/lib/seo'
 
-export const metadata = {
-  title: 'About Us - Royo Gypsum',
+export const metadata = createPageMetadata({
+  title: 'About Royo Gypsum',
   description: 'Learn about Royo Gypsum, our philosophy, values, and design approach in Sri Lanka.',
-}
+  path: '/about',
+})
 
 import { DraftingCompass, PenTool, Diamond } from 'lucide-react'
 

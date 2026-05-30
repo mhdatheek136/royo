@@ -6,11 +6,13 @@ import ContactForm from '@/components/sections/ContactForm'
 import LocationGrid from '@/components/sections/LocationGrid'
 import { TextAnimate } from '@/components/ui/text-animate'
 import { AnimatedWatermark } from '@/components/ui/animated-watermark'
+import { createPageMetadata } from '@/lib/seo'
 
-export const metadata = {
-  title: 'Contact Us - Royo Gypsum',
+export const metadata = createPageMetadata({
+  title: 'Contact Royo Gypsum in Kurunegala',
   description: 'Get in touch with Royo Gypsum in Kurunegala for molding and interior design inquiries.',
-}
+  path: '/contact',
+})
 
 export default function ContactPage() {
   return (

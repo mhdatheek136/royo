@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond, Raleway } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { absoluteUrl, siteConfig } from '@/lib/seo'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({
@@ -18,16 +19,29 @@ const raleway = Raleway({
 })
 
 export const metadata: Metadata = {
-  title: 'ROYO - Luxury Interior Design Sri Lanka',
-  description: 'High-end luxury interior design and gypsum moulding specialist based in Sri Lanka. Showcasing bespoke interior projects across the country.',
-  generator: 'v0.app',
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: 'Royo Gypsum | Interior Design and Gypsum Moulding Sri Lanka',
+    template: '%s | Royo',
+  },
+  description: siteConfig.description,
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
-    title: 'ROYO - Luxury Interior Design Sri Lanka',
-    description: 'High-end luxury interior design and gypsum moulding specialist based in Sri Lanka',
-    url: 'https://royointeriors.com',
-    siteName: 'ROYO',
-    locale: 'en_US',
+    title: 'Royo Gypsum | Interior Design and Gypsum Moulding Sri Lanka',
+    description: siteConfig.description,
+    url: '/',
+    siteName: siteConfig.name,
+    images: [{ url: '/gypsum-feature.jpg' }],
+    locale: 'en_LK',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Royo Gypsum | Interior Design and Gypsum Moulding Sri Lanka',
+    description: siteConfig.description,
+    images: ['/gypsum-feature.jpg'],
   },
 }
 
@@ -36,9 +50,33 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const businessSchema = {
+    '@context': 'https://schema.org',
+    '@type': ['LocalBusiness', 'HomeAndConstructionBusiness'],
+    '@id': `${siteConfig.url}/#business`,
+    name: siteConfig.legalName,
+    url: siteConfig.url,
+    logo: absoluteUrl('/royo wordmark long.svg'),
+    image: absoluteUrl('/gypsum-feature.jpg'),
+    email: siteConfig.email,
+    telephone: siteConfig.phones[0],
+    address: {
+      '@type': 'PostalAddress',
+      ...siteConfig.address,
+    },
+    areaServed: {
+      '@type': 'Country',
+      name: 'Sri Lanka',
+    },
+  }
+
   return (
     <html lang="en" className={`${cormorant.variable} ${raleway.variable}`}>
       <body className="font-raleway antialiased bg-off-white text-rock-black">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
+        />
         {children}
         <Analytics />
       </body>

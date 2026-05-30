@@ -6,11 +6,14 @@ import CTASection from '@/components/sections/CTASection'
 import LocationGrid from '@/components/sections/LocationGrid'
 import PortfolioGallery from '@/components/sections/PortfolioGallery'
 import { expertiseAreas } from '@/data/expertise'
+import { createPageMetadata } from '@/lib/seo'
 
-export const metadata = {
-  title: 'Expertise - ROYO Interior Design',
+export const metadata = createPageMetadata({
+  title: 'Gypsum Moulding and Interior Expertise',
   description: 'Discover ROYO expertise in gypsum works, ceiling works, wall finishes, pantry interiors, roofing, and metal welding across Sri Lanka.',
-}
+  path: '/expertise',
+  image: '/expertise-gypsum-moulding.png',
+})
 
 import { ArrowRight, History, UserCheck, Globe, Infinity } from 'lucide-react'
 

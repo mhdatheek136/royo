@@ -1,12 +1,13 @@
-import type { Metadata } from 'next'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
+import { createPageMetadata } from '@/lib/seo'
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: 'Terms of Service | Royo',
   description:
     'Review the website terms governing the use of Royo content, inquiries, and general service information.',
-}
+  path: '/terms-of-service',
+})
 
 export default function TermsOfServicePage() {
   return (

@@ -1,15 +1,16 @@
-import type { Metadata } from 'next'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
 import LocationGrid from '@/components/sections/LocationGrid'
 import CTASection from '@/components/sections/CTASection'
 import { BackgroundPaths } from '@/components/ui/background-paths'
+import { createPageMetadata } from '@/lib/seo'
 
-export const metadata: Metadata = {
-  title: 'Areas We Serve | Royo',
+export const metadata = createPageMetadata({
+  title: 'Interior Design and Gypsum Moulding Across Sri Lanka',
   description:
     'Explore the Sri Lankan cities where Royo offers gypsum moulding and interior design services, with city-specific pages shaped around real project presence.',
-}
+  path: '/locations',
+})
 
 export default function LocationsIndexPage() {
   return (

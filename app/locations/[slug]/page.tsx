@@ -11,6 +11,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import MotionReveal from '@/components/ui/motion-reveal'
 import { locations, getLocationBySlug } from '@/data/locations'
 import { getPortfolioCityByName } from '@/data/portfolio'
+import { absoluteUrl, createPageMetadata, siteConfig } from '@/lib/seo'
 
 interface LocationPageProps {
   params: Promise<{ slug: string }>
@@ -32,15 +33,12 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
     }
   }
 
-  return {
+  return createPageMetadata({
     title: location.seoTitle,
     description: location.seoDescription,
-    openGraph: {
-      title: location.seoTitle,
-      description: location.seoDescription,
-      images: [location.heroImage],
-    },
-  }
+    path: `/locations/${location.slug}`,
+    image: location.heroImage,
+  })
 }
 
 export default async function LocationPage({ params }: LocationPageProps) {
@@ -54,21 +52,59 @@ export default async function LocationPage({ params }: LocationPageProps) {
   const cityPortfolio = getPortfolioCityByName(location.cityName)
   const heroImage = cityPortfolio?.coverImage?.large || cityPortfolio?.gallery[0]?.large || location.heroImage
 
-  const locationSchema = {
+  const serviceSchema = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    name: 'Royo',
-    url: `https://www.royo.lk/locations/${location.slug}`,
-    image: heroImage,
-    telephone: '+94 70 100 9991',
-    email: 'info@royo.lk',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: 'No. 119, Bauddhaloka Road, Puwakgas Junction',
-      addressLocality: 'Kurunegala',
-      addressCountry: 'LK',
+    '@type': 'Service',
+    name: `Gypsum Moulding and Interior Design in ${location.cityName}`,
+    url: absoluteUrl(`/locations/${location.slug}`),
+    image: absoluteUrl(heroImage),
+    description: location.seoDescription,
+    provider: {
+      '@id': `${siteConfig.url}/#business`,
     },
-    areaServed: location.cityName,
+    areaServed: {
+      '@type': 'City',
+      name: location.cityName,
+    },
+    serviceType: ['Gypsum moulding', 'Interior design', 'Ceiling works', 'Wall finishes'],
+  }
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: location.faq.map(item => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: siteConfig.url,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Areas We Serve',
+        item: absoluteUrl('/locations'),
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: location.cityName,
+        item: absoluteUrl(`/locations/${location.slug}`),
+      },
+    ],
   }
 
   return (
@@ -77,7 +113,15 @@ export default async function LocationPage({ params }: LocationPageProps) {
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       <section className="relative">

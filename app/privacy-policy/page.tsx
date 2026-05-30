@@ -1,12 +1,13 @@
-import type { Metadata } from 'next'
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
+import { createPageMetadata } from '@/lib/seo'
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: 'Privacy Policy | Royo',
   description:
     'Read how Royo collects, uses, and protects information shared through our website and contact forms.',
-}
+  path: '/privacy-policy',
+})
 
 export default function PrivacyPolicyPage() {
   return (
