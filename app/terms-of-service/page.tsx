@@ -27,7 +27,7 @@ export default function TermsOfServicePage() {
                 These terms explain the general rules for using the Royo website and engaging
                 with the information, content, and inquiry tools provided through it.
               </p>
-              <p className="mt-5 font-raleway text-sm text-white/65">Last updated: May 22, 2026</p>
+              <p className="mt-5 font-raleway text-sm text-white/65">Last updated: May 30, 2026</p>
             </div>
 
             <div className="grid gap-10 px-6 py-10 sm:px-10 lg:grid-cols-[1.1fr_0.7fr] lg:px-14 lg:py-14">
@@ -57,6 +57,15 @@ export default function TermsOfServicePage() {
                     The website design, branding, written content, and original project materials
                     shown on this site belong to Royo unless otherwise stated. They may not be
                     copied, reused, or redistributed without prior written permission.
+                  </p>
+                </section>
+
+                <section className="space-y-3">
+                  <h2 className="font-cormorant text-3xl">Project Visuals</h2>
+                  <p className="font-raleway text-sm leading-7 opacity-80 sm:text-base">
+                    Project photography shown on this website may be professionally edited and
+                    enhanced with AI for presentation. These visuals are intended to present the
+                    relevant work clearly while preserving the character of the completed project.
                   </p>
                 </section>
 
