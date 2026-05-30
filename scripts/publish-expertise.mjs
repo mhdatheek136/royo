@@ -9,6 +9,7 @@ const sourceRoot = path.join(rootDir, 'ai-images', 'project-library-web')
 const publicRoot = path.join(rootDir, 'public', 'expertise')
 const dataPath = path.join(rootDir, 'data', 'expertise.generated.json')
 const coverSelectionsPath = path.join(rootDir, 'ai-images', 'expertise-cover-selections.json')
+const exclusionsPath = path.join(rootDir, 'data', 'expertise.exclusions.json')
 
 const services = [
   {
@@ -76,6 +77,17 @@ function loadCoverSelections() {
   }
 }
 
+function loadExclusions() {
+  if (!fs.existsSync(exclusionsPath)) return new Set()
+  try {
+    const data = JSON.parse(fs.readFileSync(exclusionsPath, 'utf8'))
+    return new Set(data.excluded || [])
+  } catch (error) {
+    console.warn(`Ignoring invalid expertise exclusions: ${error instanceof Error ? error.message : String(error)}`)
+    return new Set()
+  }
+}
+
 function toImagePair(folder, fileName) {
   const relativePath = `${folder}/${fileName}`
   return {
@@ -85,6 +97,7 @@ function toImagePair(folder, fileName) {
 }
 
 function copySourceFolders() {
+  const exclusions = loadExclusions()
   for (const variant of ['thumb', 'large']) {
     for (const service of services.filter(item => !item.isSignature)) {
       const folder = service.sourceFolders[0]
@@ -92,6 +105,7 @@ function copySourceFolders() {
       const targetDir = path.join(publicRoot, variant, folder)
       ensureDir(targetDir)
       for (const fileName of listWebpFiles(sourceDir)) {
+        if (exclusions.has(`${folder}/${fileName}`)) continue
         fs.copyFileSync(path.join(sourceDir, fileName), path.join(targetDir, fileName))
       }
     }
@@ -111,11 +125,13 @@ function buildData() {
 }
 
 function main() {
+  const exclusions = loadExclusions()
   resetDir(publicRoot)
   copySourceFolders()
   const expertise = buildData()
   fs.writeFileSync(dataPath, JSON.stringify({ generatedAt: new Date().toISOString(), expertise }, null, 2), 'utf8')
   console.log(`Published ${expertise.length} expertise areas with ${expertise.filter(item => !item.isSignature).reduce((sum, item) => sum + item.images.length, 0)} source images.`)
+  console.log(`Excluded ${exclusions.size} curated images.`)
   console.log(`Assets: ${publicRoot}`)
   console.log(`Metadata: ${dataPath}`)
 }
